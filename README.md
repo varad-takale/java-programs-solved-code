@@ -34,9 +34,9 @@ Interested in Java, Spring Boot, SQL, and Software Development.
 
 ```
 
-##Program 2 – Addition
+# Program 2 – Addition
 
-# 📌 Description
+##📌 Description
 
 This is a simple Java program that demonstrates **addition of two integer numbers**.
 
