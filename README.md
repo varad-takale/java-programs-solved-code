@@ -1,7 +1,7 @@
 # java-programs-solved-code
 
 
-## program 1 -📌 Pattern Output
+# program 1 -📌 Pattern Output
 
 A simple Java program that demonstrates how to print a **decreasing star (`*`) pattern** using `System.out.println()`.
 
