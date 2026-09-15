@@ -78,7 +78,7 @@ public class addition {
 ```text
 25
 ```
-# program 3 - # Circle Area Calculator in Java
+# program 3 - Circle Area Calculator in Java
 
 ## 📌 Overview
 
