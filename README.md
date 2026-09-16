@@ -59,18 +59,7 @@ The program performs the following steps:
 4. Stores the result in the `sum` variable.
 5. Prints the result to the console.
 
-## 📄 Source Code
 
-```java
-public class addition {
-
-    public static void main(String[] args) {
-        int a = 15;
-        int b = 10;
-        int sum = a + b;
-        System.out.println(sum);
-    }
-}
 ```
 
 ## ▶️ Output
@@ -188,34 +177,8 @@ d
 
 Each character is assigned to an `int` variable, and the resulting integer values are printed to the console.
 
-## 💻 Source Code
 
-```java
-public class charect {
 
-    public static void main(String[] args) {
-        char ch = 'v';
-        int number = ch;
-
-        char ch2 = 'a';
-        int number2 = ch2;
-
-        char ch3 = 'r';
-        int number3 = ch3;
-
-        char ch4 = 'a';
-        int number4 = ch4;
-
-        char ch5 = 'd';
-        int number5 = ch5;
-
-        System.out.println(number);
-        System.out.println(number2);
-        System.out.println(number3);
-        System.out.println(number4);
-        System.out.println(number5);
-    }
-}
 ```
 
 ## 🧠 Concept Used
