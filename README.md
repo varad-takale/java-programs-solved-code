@@ -157,7 +157,7 @@ This project demonstrates basic Java concepts such as:
  ```
 ```
 
-  # program 4 -# Java Character to Integer Conversion
+  # program 4 - Java Character to Integer Conversion
 
 A simple Java program that demonstrates how a `char` value can be converted into its corresponding integer value.
 
