@@ -164,6 +164,126 @@ This project demonstrates basic Java concepts such as:
 * Using the `float` data type
 * Performing arithmetic calculations
 * Printing output using `System.out.println()`
+  
+ ```
+```
+
+  # program 4 -# Java Character to Integer Conversion
+
+A simple Java program that demonstrates how a `char` value can be converted into its corresponding integer value.
+
+## 📌 About the Program
+
+This program declares several character variables and converts each character into an integer using Java's implicit type conversion.
+
+The characters used in the program are:
+
+```text
+v
+a
+r
+a
+d
+```
+
+Each character is assigned to an `int` variable, and the resulting integer values are printed to the console.
+
+## 💻 Source Code
+
+```java
+public class charect {
+
+    public static void main(String[] args) {
+        char ch = 'v';
+        int number = ch;
+
+        char ch2 = 'a';
+        int number2 = ch2;
+
+        char ch3 = 'r';
+        int number3 = ch3;
+
+        char ch4 = 'a';
+        int number4 = ch4;
+
+        char ch5 = 'd';
+        int number5 = ch5;
+
+        System.out.println(number);
+        System.out.println(number2);
+        System.out.println(number3);
+        System.out.println(number4);
+        System.out.println(number5);
+    }
+}
+```
+
+## 🧠 Concept Used
+
+### Character to Integer Conversion
+
+In Java, a `char` can be assigned directly to an `int`.
+
+```java
+char ch = 'v';
+int number = ch;
+```
+
+Java converts the character into its corresponding Unicode numeric value.
+
+For example:
+
+```text
+Character    Integer Value
+v            118
+a            97
+r            114
+a            97
+d            100
+```
+
+## 📤 Expected Output
+
+```text
+118
+97
+114
+97
+100
+```
+
+## 🛠️ Technologies Used
+
+* **Java**
+* Java Primitive Data Types
+* Character (`char`)
+* Integer (`int`)
+* Type Conversion
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd your-repository-name
+```
+
+### 3. Compile the Java program
+
+```bash
+javac charect.java
+```
+
+
+
+
+
 
 
 
