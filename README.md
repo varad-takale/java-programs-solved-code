@@ -309,26 +309,8 @@ javac adult.java
 java adult
 ```
 
-## 📂 Project Structure
 
-```text
-Adult-Age-Checker/
-│
-├── adult.java
-└── README.md
-```
 
-## 🎯 Learning Objective
-
-The main objective of this project is to understand how **conditional statements (`if-else`)** work in Java and how they can be used to make decisions based on a given condition.
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
----
-
-⭐ If you found this project useful, feel free to star the repository!
 
 
 
