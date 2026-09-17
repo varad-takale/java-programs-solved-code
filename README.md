@@ -242,6 +242,94 @@ cd your-repository-name
 ```bash
 javac charect.java
 ```
+# program 5 - Adult Age Checker – Java
+
+A simple Java program that checks whether a person is an **adult** based on their age.
+
+## 📌 About the Project
+
+This project demonstrates the basic use of:
+
+* Java `if-else` statements
+* Integer variables
+* Comparison operators
+* Console output using `System.out.println()`
+
+The program uses an age value and checks whether it is **18 or above**. If the condition is true, it displays that the person is an adult.
+
+## 🛠️ Technologies Used
+
+* **Java**
+* Java Development Kit (JDK)
+
+## 💻 How It Works
+
+The program:
+
+1. Stores the person's age in an integer variable.
+2. Checks whether the age is greater than or equal to `18`.
+3. If the condition is true, it prints:
+   `adult : vote, drive`
+4. Otherwise, it prints:
+   `not adult`
+
+## ▶️ Example
+
+### Input
+
+```text
+Age = 23
+```
+
+### Output
+
+```text
+adult : vote, drive
+```
+
+## 🚀 How to Run
+
+1. Install Java JDK.
+2. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+3. Open the project folder.
+4. Compile the Java program:
+
+```bash
+javac adult.java
+```
+
+5. Run the program:
+
+```bash
+java adult
+```
+
+## 📂 Project Structure
+
+```text
+Adult-Age-Checker/
+│
+├── adult.java
+└── README.md
+```
+
+## 🎯 Learning Objective
+
+The main objective of this project is to understand how **conditional statements (`if-else`)** work in Java and how they can be used to make decisions based on a given condition.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
+
 
 
 
