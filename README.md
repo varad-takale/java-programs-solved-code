@@ -331,23 +331,7 @@ The program uses the values `10` and `15` and determines which one is the larges
 * **Comparison operators**
 * **Console output**
 
-## 💻 Source Code
 
-```java
-public class largest {
-
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 15;
-
-        if (a >= b) {
-            System.out.println("a is largest of 2");
-        } else {
-            System.out.println("b is largest of 2");
-        }
-    }
-}
-```
 
 ## ▶️ How to Run
 
@@ -415,16 +399,6 @@ This program can be extended to:
 * Find the largest number in an array.
 * Create a reusable method for finding the largest number.
 
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate
-Java | Spring Boot | SQL | Software Development
-
----
-
-⭐ If you found this beginner Java program useful, feel free to star the repository!
 
 
 
