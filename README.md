@@ -309,6 +309,124 @@ javac adult.java
 java adult
 ```
 
+# program 6 - # 🔢 Largest of Two Numbers in Java
+
+A simple Java program that compares two integer values and determines which number is larger using an `if-else` statement.
+
+## 📌 Project Overview
+
+This beginner-friendly Java program demonstrates how to:
+
+* Declare and initialize integer variables.
+* Compare two numbers using the `>=` operator.
+* Use an `if-else` conditional statement.
+* Display the result using `System.out.println()`.
+
+The program uses the values `10` and `15` and determines which one is the largest.
+
+## 🛠️ Technologies Used
+
+* **Java**
+* **if-else statement**
+* **Comparison operators**
+* **Console output**
+
+## 💻 Source Code
+
+```java
+public class largest {
+
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 15;
+
+        if (a >= b) {
+            System.out.println("a is largest of 2");
+        } else {
+            System.out.println("b is largest of 2");
+        }
+    }
+}
+```
+
+## ▶️ How to Run
+
+### 1. Check Java Installation
+
+Make sure Java is installed on your computer:
+
+```bash
+java -version
+```
+
+### 2. Compile the Program
+
+Open a terminal in the folder containing the Java file and run:
+
+```bash
+javac largest.java
+```
+
+### 3. Run the Program
+
+```bash
+java largest
+```
+
+## 📤 Output
+
+For the values:
+
+```text
+a = 10
+b = 15
+```
+
+The program produces:
+
+```text
+b is largest of 2
+```
+
+## 🧠 Concepts Covered
+
+| Concept                | Description                                                  |
+| ---------------------- | ------------------------------------------------------------ |
+| `int`                  | Stores integer values                                        |
+| `if-else`              | Makes a decision based on a condition                        |
+| `>=`                   | Checks whether one value is greater than or equal to another |
+| `System.out.println()` | Prints output to the console                                 |
+
+## 📁 Project Structure
+
+```text
+Largest-Number-Java/
+│
+├── largest.java
+└── README.md
+```
+
+## 🚀 Possible Improvements
+
+This program can be extended to:
+
+* Take numbers from the user using `Scanner`.
+* Find the largest among three numbers.
+* Find the largest number in an array.
+* Create a reusable method for finding the largest number.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
+Java | Spring Boot | SQL | Software Development
+
+---
+
+⭐ If you found this beginner Java program useful, feel free to star the repository!
+
+
 
 
 
