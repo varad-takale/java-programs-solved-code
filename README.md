@@ -399,7 +399,7 @@ This program can be extended to:
 * Find the largest number in an array.
 * Create a reusable method for finding the largest number.
 
-# program 7 - # 🔢 Even or Odd Checker — Java
+# program 7 -  🔢 Even or Odd Checker — Java
 
 A simple Java program that checks whether a given number is **even or odd** using the modulo (`%`) operator.
 
@@ -433,27 +433,7 @@ For example:
 
 Therefore, `14` is an even number.
 
-## 💻 Code
 
-```java
-import java.util.Scanner;
-
-public class evenodd {
-
-    public static void main(String[] args) {
-
-        // Scanner sc = new Scanner(System.in);
-        // int number = sc.nextInt();
-
-        int number = 14;
-
-        if (number % 2 == 0) {
-            System.out.println(number + " : number is even");
-        } else {
-            System.out.println(number + " : number is odd");
-        }
-    }
-}
 ```
 
 ## ▶️ Output
