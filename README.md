@@ -399,114 +399,129 @@ This program can be extended to:
 * Find the largest number in an array.
 * Create a reusable method for finding the largest number.
 
-# program 7 - # 🤗 Hugging Face Pipelines Demo
+# program 7 - # 🔢 Even or Odd Checker — Java
 
-A simple Python project demonstrating the initial setup for working with **Hugging Face Transformers Pipelines**.
+A simple Java program that checks whether a given number is **even or odd** using the modulo (`%`) operator.
 
 ## 📌 About the Project
 
-This project is created to explore and demonstrate the use of the **Hugging Face Transformers** library and its `pipeline()` API for working with pre-trained machine learning models.
+This project demonstrates a basic Java conditional statement and the use of the modulo operator.
 
-The notebook currently focuses on installing the required library and importing the tools needed for working with:
-
-* Hugging Face Transformers
-* Image processing
-* HTTP requests
-* Data visualization
+The program currently checks the value `14` and prints whether the number is even or odd. The code also contains commented-out `Scanner` input code, which can be used to accept a number from the user.
 
 ## 🛠️ Technologies Used
 
-* **Python**
-* **Hugging Face Transformers**
-* **Pillow (PIL)**
-* **Requests**
-* **Matplotlib**
-* **Google Colab / Jupyter Notebook**
+* **Java**
+* **Java Scanner** *(prepared for user input)*
 
-## 📦 Libraries Used
+## 🧠 How It Works
 
-```python
-!pip install transformers
+The program uses the modulo operator:
 
-import requests
-from io import BytesIO
-from transformers import pipeline
-from PIL import Image, ImageDraw
-import matplotlib.pyplot as plt
+```java
+number % 2
 ```
 
-## 🚀 Getting Started
+* If the remainder is `0`, the number is **even**.
+* Otherwise, the number is **odd**.
 
-### 1. Clone the Repository
+For example:
+
+```text
+14 % 2 = 0
+```
+
+Therefore, `14` is an even number.
+
+## 💻 Code
+
+```java
+import java.util.Scanner;
+
+public class evenodd {
+
+    public static void main(String[] args) {
+
+        // Scanner sc = new Scanner(System.in);
+        // int number = sc.nextInt();
+
+        int number = 14;
+
+        if (number % 2 == 0) {
+            System.out.println(number + " : number is even");
+        } else {
+            System.out.println(number + " : number is odd");
+        }
+    }
+}
+```
+
+## ▶️ Output
+
+For the current value `14`, the output is:
+
+```text
+14 : number is even
+```
+
+## 🚀 How to Run
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hugging-face-pipelines-demo.git
-cd hugging-face-pipelines-demo
+git clone https://github.com/your-username/even-odd-java.git
 ```
 
-### 2. Install Dependencies
-
-Install the Transformers library:
+### 2. Navigate to the project
 
 ```bash
-pip install transformers
+cd even-odd-java
 ```
 
-You may also install the supporting libraries:
+### 3. Compile the program
 
 ```bash
-pip install requests pillow matplotlib
+javac evenodd.java
 ```
 
-### 3. Run the Notebook
-
-Open the notebook using Jupyter:
+### 4. Run the program
 
 ```bash
-jupyter notebook
+java evenodd
 ```
-
-Or open it directly in **Google Colab**.
 
 ## 📂 Project Structure
 
 ```text
-hugging-face-pipelines-demo/
+even-odd-java/
 │
-├── project 11.ipynb
+├── evenodd.java
 └── README.md
 ```
 
-## 🎯 Purpose
+## 🔄 Future Improvement
 
-The purpose of this project is to build familiarity with the Hugging Face Transformers ecosystem and understand how the `pipeline()` interface can be used as a starting point for working with pre-trained machine learning models.
+The program can be modified to take the number dynamically from the user by uncommenting the `Scanner` input lines:
 
-## 🔮 Future Scope
+```java
+Scanner sc = new Scanner(System.in);
+int number = sc.nextInt();
+```
 
-The project can be extended by implementing different Hugging Face pipelines, such as:
+This would allow the user to check any number without changing the source code.
 
-* Text classification
-* Sentiment analysis
-* Text generation
-* Image classification
-* Object detection
-* Question answering
-* Summarization
-* Named Entity Recognition (NER)
+## 🎯 Concepts Practiced
 
-## 👨‍💻 Author
+* Java class and `main()` method
+* `Scanner` for user input
+* Variables
+* Modulo (`%`) operator
+* `if-else` conditional statements
+* Console output using `System.out.println()`
 
-**Varad Takale**
 
-Computer Engineering Graduate
 
-### Skills & Interests
 
-`Java` • `Python` • `SQL` • `Machine Learning` • `AI` • `Spring Boot`
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
 
 
 
