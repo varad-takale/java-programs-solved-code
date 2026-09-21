@@ -604,26 +604,7 @@ This project helps practice:
 * Type casting
 * Console output using `System.out.println()`
 
-## 🔮 Future Improvements
 
-Possible improvements include:
-
-* Accept income from the user using `Scanner`.
-* Add more income slabs.
-* Add input validation.
-* Create a menu-based tax calculator.
-* Separate tax calculation logic into methods.
-* Build a GUI version.
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate | Java Developer Aspirant
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
 
 
 
