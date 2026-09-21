@@ -500,6 +500,132 @@ This would allow the user to check any number without changing the source code.
 * Console output using `System.out.println()`
 
 
+# program 8 - # 💰 Tax Calculator — Java
+
+A simple Java console-based program that calculates tax based on a person's income using conditional statements.
+
+## 📌 About the Project
+
+This project demonstrates how **`if-else if-else` conditional statements** can be used in Java to apply different tax rates according to income ranges.
+
+The program currently uses a fixed income value and calculates the corresponding tax amount.
+
+## 🚀 Features
+
+* Calculates tax based on income.
+* Uses `if-else if-else` conditions.
+* Demonstrates percentage-based calculations.
+* Displays the calculated tax in the console.
+* Beginner-friendly Java project.
+
+## 🧠 Tax Logic Used
+
+The program applies the following rules:
+
+| Income Range          | Tax Rate |
+| --------------------- | -------: |
+| Below ₹5,00,000       |       0% |
+| ₹5,00,000 – ₹9,99,999 |      20% |
+| ₹10,00,000 and above  |      30% |
+
+> **Note:** These tax brackets are the rules implemented in this learning project and are not intended to represent current real-world tax regulations.
+
+## 💻 Example
+
+The program currently uses:
+
+```java
+int income = 400000;
+```
+
+Since the income is below ₹5,00,000, the program calculates:
+
+```text
+tax is 0
+```
+
+## 🛠️ Technologies Used
+
+* **Java**
+* `if-else if-else`
+* Arithmetic operators
+* Console output
+
+## 📂 Project Structure
+
+```text
+Tax-Calculator/
+│
+├── taxcal.java
+└── README.md
+```
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Tax-Calculator.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd Tax-Calculator
+```
+
+### 3. Compile the Java Program
+
+```bash
+javac taxcal.java
+```
+
+### 4. Run the Program
+
+```bash
+java taxcal
+```
+
+## 📤 Sample Output
+
+```text
+tax is 0
+```
+
+## 📚 Concepts Practiced
+
+This project helps practice:
+
+* Java variables
+* Integer data types
+* Conditional statements
+* Comparison operators
+* Arithmetic calculations
+* Type casting
+* Console output using `System.out.println()`
+
+## 🔮 Future Improvements
+
+Possible improvements include:
+
+* Accept income from the user using `Scanner`.
+* Add more income slabs.
+* Add input validation.
+* Create a menu-based tax calculator.
+* Separate tax calculation logic into methods.
+* Build a GUI version.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate | Java Developer Aspirant
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
+
+
 
 
 
