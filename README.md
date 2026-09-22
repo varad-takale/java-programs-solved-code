@@ -604,6 +604,79 @@ This project helps practice:
 * Type casting
 * Console output using `System.out.println()`
 
+  # program 9 - # Largest of Three Numbers in Java
+
+## 📌 Description
+
+This project is a simple Java program that finds the **largest number among three given numbers** using `if-else if-else` conditional statements.
+
+The program compares three integer values and prints which variable contains the largest value.
+
+## 🛠️ Technologies Used
+
+* Java
+* If-Else Conditional Statements
+
+## ⚙️ How It Works
+
+The program takes three integer values:
+
+```java
+int a = 20;
+int b = 29;
+int c = 15;
+```
+
+It then compares the values:
+
+* If `a` is greater than both `b` and `c`, `a` is the largest.
+* Otherwise, if `b` is greater than `c`, `b` is the largest.
+* Otherwise, `c` is the largest.
+
+## 💻 Example Output
+
+```text
+b is largest of 3
+```
+
+## ▶️ How to Run
+
+1. Make sure Java is installed on your system.
+2. Save the file as:
+
+```text
+largest3.java
+```
+
+3. Compile the program:
+
+```bash
+javac largest3.java
+```
+
+4. Run the program:
+
+```bash
+java largest3
+```
+
+## 🎯 Concepts Covered
+
+* Java class and `main()` method
+* Integer variables
+* Comparison operators
+* `if` statement
+* `else if` statement
+* `else` statement
+* Console output using `System.out.println()`
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
+
+
 
 
 
