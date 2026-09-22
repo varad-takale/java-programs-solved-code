@@ -660,21 +660,6 @@ javac largest3.java
 java largest3
 ```
 
-## 🎯 Concepts Covered
-
-* Java class and `main()` method
-* Integer variables
-* Comparison operators
-* `if` statement
-* `else if` statement
-* `else` statement
-* Console output using `System.out.println()`
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate
 
 
 
