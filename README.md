@@ -660,6 +660,142 @@ javac largest3.java
 java largest3
 ```
 
+# program 10 - # Java Switch Case Program
+
+A simple Java program demonstrating how to use the **switch statement** to execute different blocks of code based on user input.
+
+## 📌 Project Overview
+
+This beginner-friendly Java program takes an integer from the user using the `Scanner` class and checks its value using a `switch` statement.
+
+The program contains:
+
+* **Case 1** → Prints `i am rich`
+* **Case 2** → Prints `i am intelligent`
+* **Default case** → Prints `you are handsome`
+
+The program uses `Scanner` to read the user's input from the console.
+
+## 🛠️ Technologies Used
+
+* Java
+* `Scanner`
+* `switch-case`
+* Console Input/Output
+
+## 📂 Project Structure
+
+```text
+Java-Switch-Case/
+│
+├── switchcount.java
+└── README.md
+```
+
+## ⚙️ How It Works
+
+The program first creates a `Scanner` object and reads an integer from the user:
+
+```java
+Scanner sc = new Scanner(System.in);
+int number = sc.nextInt();
+```
+
+The entered number is then evaluated using a `switch` statement.
+
+### Case 1
+
+If the user enters `1`:
+
+```text
+i am rich
+```
+
+### Case 2
+
+If the user enters `2`:
+
+```text
+i am intelligent
+```
+
+### Default Case
+
+For any other number:
+
+```text
+you are handsome
+```
+
+The corresponding cases and output statements are present in the uploaded program.
+
+## ▶️ How to Run
+
+### 1. Compile the program
+
+```bash
+javac switchcount.java
+```
+
+### 2. Run the program
+
+```bash
+java switchcount
+```
+
+### 3. Enter a number
+
+For example:
+
+```text
+1
+```
+
+Output:
+
+```text
+i am rich
+```
+
+## 🧪 Example
+
+### Input
+
+```text
+2
+```
+
+### Output
+
+```text
+i am intelligent
+```
+
+If the input is a number other than `1` or `2`, the `default` block executes.
+
+## 🎯 Concepts Demonstrated
+
+This program demonstrates the basic use of:
+
+* Java `main()` method
+* `Scanner` for user input
+* Integer variables
+* `switch` statements
+* `case`
+* `break`
+* `default`
+* Console output using `System.out.println()`
+
+## 📚 Learning Purpose
+
+This project is suitable for beginners learning **Core Java**, particularly conditional control statements and user input.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
+Learning **Java, Spring Boot, SQL and Software Development**.
 
 
 
