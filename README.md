@@ -660,7 +660,7 @@ javac largest3.java
 java largest3
 ```
 
-# program 10 - # Java Switch Case Program
+# program 10 - Java Switch Case Program
 
 A simple Java program demonstrating how to use the **switch statement** to execute different blocks of code based on user input.
 
@@ -773,29 +773,8 @@ i am intelligent
 
 If the input is a number other than `1` or `2`, the `default` block executes.
 
-## 🎯 Concepts Demonstrated
 
-This program demonstrates the basic use of:
 
-* Java `main()` method
-* `Scanner` for user input
-* Integer variables
-* `switch` statements
-* `case`
-* `break`
-* `default`
-* Console output using `System.out.println()`
-
-## 📚 Learning Purpose
-
-This project is suitable for beginners learning **Core Java**, particularly conditional control statements and user input.
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate
-Learning **Java, Spring Boot, SQL and Software Development**.
 
 
 
