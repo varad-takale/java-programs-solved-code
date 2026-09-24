@@ -774,6 +774,47 @@ i am intelligent
 If the input is a number other than `1` or `2`, the `default` block executes.
 
 
+# program 11 - # Java Calculator
+
+A simple **Java Calculator** program that performs basic arithmetic operations using user input and a `switch` statement.
+
+## 🚀 Features
+
+* Addition `+`
+* Subtraction `-`
+* Multiplication `*`
+* Division `/`
+* Modulus `%`
+* User input using `Scanner`
+
+## 🛠️ Technologies
+
+* Java
+* Scanner
+* Switch Statement
+
+## 💡 Example
+
+```text
+Enter a number: 10
+Enter b number: 5
+Enter a operator: +
+
+15
+```
+
+## ▶️ How to Run
+
+```bash
+javac calculator.java
+java calculator
+```
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate | Java | Spring Boot | SQL
 
 
 
