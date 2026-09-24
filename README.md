@@ -500,7 +500,7 @@ This would allow the user to check any number without changing the source code.
 * Console output using `System.out.println()`
 
 
-# program 8 - # 💰 Tax Calculator — Java
+# program 8 -  💰 Tax Calculator — Java
 
 A simple Java console-based program that calculates tax based on a person's income using conditional statements.
 
@@ -604,7 +604,7 @@ This project helps practice:
 * Type casting
 * Console output using `System.out.println()`
 
-  # program 9 - # Largest of Three Numbers in Java
+  # program 9 -  Largest of Three Numbers in Java
 
 ## 📌 Description
 
@@ -810,11 +810,8 @@ javac calculator.java
 java calculator
 ```
 
-## 👨‍💻 Author
 
-**Varad Takale**
 
-Computer Engineering Graduate | Java | Spring Boot | SQL
 
 
 
