@@ -810,7 +810,7 @@ javac calculator.java
 java calculator
 ```
 
-# program 12 - # Java While Loop – Program 12
+# program 12 - Java While Loop – Program 12
 
 ## 📌 Project Overview
 
