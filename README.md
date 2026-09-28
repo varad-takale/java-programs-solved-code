@@ -957,31 +957,7 @@ java wlopp
 
 ---
 
-## 📚 Key Concept
 
-The basic structure of a Java `while` loop is:
-
-```java
-while (condition) {
-    // statements
-}
-```
-
-The statements inside the loop continue executing as long as the condition remains `true`.
-
----
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate | Java Developer
-
----
-
-## ⭐ Purpose
-
-This project is part of my Java programming practice and focuses on understanding basic looping concepts.
 
 
 
