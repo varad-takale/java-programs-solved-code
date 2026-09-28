@@ -810,6 +810,179 @@ javac calculator.java
 java calculator
 ```
 
+# program 12 - # Java While Loop – Program 12
+
+## 📌 Project Overview
+
+This is a simple Java program demonstrating the use of a **`while` loop**.
+
+The program starts a counter at `0` and repeatedly executes the loop while the counter is less than `100`. During each iteration, it prints `"i am rich"` and increments the counter by `1`. After the loop finishes, it prints `"yes you are rich now"`.
+
+---
+
+## 🛠️ Technologies Used
+
+* Java
+* `while` loop
+* Variables
+* Increment operator (`++`)
+* `System.out.println()`
+
+---
+
+## 📂 Program Structure
+
+```text
+Program 12
+│
+└── wlopp.java
+```
+
+---
+
+## 💻 Code
+
+```java
+public class wlopp {
+
+    public static void main(String[] args) {
+        int counter = 0;
+
+        while (counter < 100) {
+            System.out.println("i am rich");
+            counter++;
+        }
+
+        System.out.println("yes you are rich now");
+    }
+}
+```
+
+---
+
+## 🔍 How It Works
+
+### 1. Initialize the Counter
+
+```java
+int counter = 0;
+```
+
+The counter starts with a value of `0`.
+
+### 2. Start the While Loop
+
+```java
+while (counter < 100)
+```
+
+The loop continues as long as `counter` is less than `100`.
+
+### 3. Print the Message
+
+```java
+System.out.println("i am rich");
+```
+
+The message is printed during each loop iteration.
+
+### 4. Increment the Counter
+
+```java
+counter++;
+```
+
+The counter increases by `1` after each iteration.
+
+### 5. Print the Final Message
+
+Once the loop condition becomes false, the program prints:
+
+```text
+yes you are rich now
+```
+
+---
+
+## 📤 Expected Output
+
+The program prints:
+
+```text
+i am rich
+i am rich
+i am rich
+...
+```
+
+The message is printed repeatedly while the counter is below `100`.
+
+After the loop completes:
+
+```text
+yes you are rich now
+```
+
+---
+
+## 🎯 Learning Objective
+
+This program is useful for beginners learning:
+
+* How a `while` loop works
+* How loop conditions control repetition
+* How variables change during a loop
+* How the increment operator works
+* How Java executes statements repeatedly
+
+---
+
+## ▶️ How to Run
+
+### Step 1: Install Java
+
+Make sure Java/JDK is installed on your computer.
+
+### Step 2: Compile the Program
+
+```bash
+javac wlopp.java
+```
+
+### Step 3: Run the Program
+
+```bash
+java wlopp
+```
+
+---
+
+## 📚 Key Concept
+
+The basic structure of a Java `while` loop is:
+
+```java
+while (condition) {
+    // statements
+}
+```
+
+The statements inside the loop continue executing as long as the condition remains `true`.
+
+---
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate | Java Developer
+
+---
+
+## ⭐ Purpose
+
+This project is part of my Java programming practice and focuses on understanding basic looping concepts.
+
 
 
 
