@@ -828,8 +828,6 @@ The program starts a counter at `0` and repeatedly executes the loop while the c
 * Increment operator (`++`)
 * `System.out.println()`
 
----
-
 ## 📂 Program Structure
 
 ```text
