@@ -1060,18 +1060,7 @@ java wloop2
 
 Through this exercise, I practiced using loops to repeatedly execute a block of code based on a condition. It also helped strengthen my understanding of counters and basic Java syntax.
 
-## 👨‍💻 Author
 
-**Varad Takale**
-
-Computer Engineering Graduate
-Aspiring Java Developer | Software Engineer
-
-## ⭐ Repository
-
-This project is part of my **Java programming practice repository**, where I am building a strong foundation in Core Java concepts.
-
-If you find this useful, feel free to ⭐ the repository.
 
 
 
