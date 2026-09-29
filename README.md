@@ -956,6 +956,122 @@ java wlopp
 ```
 
 ---
+# program 13 - # Java While Loop – Number Printing Program
+
+A simple Java program demonstrating the use of a **while loop** to print numbers from 1 to 10.
+
+## 📌 Overview
+
+This project is a beginner-level Java programming exercise created to practice fundamental programming concepts.
+
+The program:
+
+1. Initializes a counter with the value `1`.
+2. Checks whether the counter is less than or equal to `10`.
+3. Prints the current counter value.
+4. Increments the counter by `1`.
+5. Repeats the process until the condition becomes false.
+
+## 🛠️ Technologies Used
+
+* **Java**
+* Java `while` loop
+* Variables
+* Conditional expressions
+* Increment operator
+
+## 💻 Source Code
+
+```java
+public class wloop2 {
+
+    public static void main(String[] args) {
+        int counter = 1;
+
+        while (counter <= 10) {
+            System.out.print(counter + " ");
+            counter++;
+        }
+
+        System.out.println(".");
+    }
+}
+```
+
+## ▶️ Output
+
+```text
+1 2 3 4 5 6 7 8 9 10 .
+```
+
+## 🧠 Concepts Practiced
+
+* Java class and `main()` method
+* Variable declaration and initialization
+* `while` loop
+* Boolean condition checking
+* Increment operator (`++`)
+* Console output using `System.out.print()`
+* Basic program control flow
+
+## 🎯 Learning Objective
+
+The main objective of this exercise is to understand how a `while` loop works in Java and how a counter can be used to control the number of iterations.
+
+## 📂 Project Structure
+
+```text
+Java-While-Loop/
+│
+├── wloop2.java
+└── README.md
+```
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/Java-While-Loop.git
+```
+
+### 2. Open the project
+
+Open the project in any Java-supported IDE, such as:
+
+* IntelliJ IDEA
+* Eclipse
+* VS Code
+* NetBeans
+
+### 3. Compile the program
+
+```bash
+javac wloop2.java
+```
+
+### 4. Run the program
+
+```bash
+java wloop2
+```
+
+## 📚 What I Learned
+
+Through this exercise, I practiced using loops to repeatedly execute a block of code based on a condition. It also helped strengthen my understanding of counters and basic Java syntax.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
+Aspiring Java Developer | Software Engineer
+
+## ⭐ Repository
+
+This project is part of my **Java programming practice repository**, where I am building a strong foundation in Core Java concepts.
+
+If you find this useful, feel free to ⭐ the repository.
 
 
 
