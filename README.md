@@ -956,7 +956,7 @@ java wlopp
 ```
 
 ---
-# program 13 - # Java While Loop – Number Printing Program
+# program 13 - Java While Loop – Number Printing Program
 
 A simple Java program demonstrating the use of a **while loop** to print numbers from 1 to 10.
 
@@ -980,23 +980,9 @@ The program:
 * Conditional expressions
 * Increment operator
 
-## 💻 Source Code
 
-```java
-public class wloop2 {
 
-    public static void main(String[] args) {
-        int counter = 1;
 
-        while (counter <= 10) {
-            System.out.print(counter + " ");
-            counter++;
-        }
-
-        System.out.println(".");
-    }
-}
-```
 
 ## ▶️ Output
 
@@ -1056,9 +1042,6 @@ javac wloop2.java
 java wloop2
 ```
 
-## 📚 What I Learned
-
-Through this exercise, I practiced using loops to repeatedly execute a block of code based on a condition. It also helped strengthen my understanding of counters and basic Java syntax.
 
 
 
