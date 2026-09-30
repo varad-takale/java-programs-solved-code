@@ -1020,6 +1020,73 @@ javac wloop2.java
 java wloop2
 ```
 
+# # Program 14 – Print Numbers Using While Loop
+
+## 📌 Description
+
+This Java program takes an integer `n` as input from the user and prints all numbers from **1 to n** using a `while` loop.
+
+The program uses a counter variable starting from `1` and continues printing numbers until the counter becomes greater than `n`.
+
+## 🛠️ Technologies Used
+
+* Java
+* Scanner
+* While Loop
+
+## ⚙️ How It Works
+
+1. The program takes an integer `n` from the user.
+2. A counter is initialized to `1`.
+3. The `while` loop runs while `counter <= n`.
+4. The current counter value is printed.
+5. The counter is increased by `1` after every iteration.
+6. A period is printed after the loop finishes.
+
+## 💻 Example
+
+### Input
+
+```text
+5
+```
+
+### Output
+
+```text
+1 2 3 4 5 .
+```
+
+## 📚 Concepts Covered
+
+* Java `Scanner`
+* User Input
+* Variables
+* `while` Loop
+* Increment Operator
+* Conditional Expression
+
+## ▶️ How to Run
+
+Compile the program:
+
+```bash
+javac wlopp3.java
+```
+
+Run the program:
+
+```bash
+java wlopp3
+```
+
+Then enter an integer when prompted.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
 
 
 
