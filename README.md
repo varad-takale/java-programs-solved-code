@@ -1066,29 +1066,10 @@ The program uses a counter variable starting from `1` and continues printing num
 * Increment Operator
 * Conditional Expression
 
-## ▶️ How to Run
 
-Compile the program:
 
-```bash
-javac wlopp3.java
-```
 
-Run the program:
-
-```bash
-java wlopp3
-```
-
-Then enter an integer when prompted.
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate
-
-# program 15 - # Java Star Pattern Program ⭐
+# program 15 -  Java Star Pattern Program ⭐
 
 ## 📌 Description
 
@@ -1157,24 +1138,6 @@ java spattern
 * * * *
 ```
 
-## 🎯 Concepts Learned
-
-* Java class structure
-* `main()` method
-* `for` loop
-* Loop iteration
-* Printing output using `System.out.println()`
-* Basic pattern programming
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
-Computer Engineering Graduate
-
----
-
-⭐ This is a beginner-friendly Java program created for practicing loops and pattern programming.
 
 
 
