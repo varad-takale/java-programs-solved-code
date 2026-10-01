@@ -1088,6 +1088,93 @@ Then enter an integer when prompted.
 
 Computer Engineering Graduate
 
+# program 15 - # Java Star Pattern Program ⭐
+
+## 📌 Description
+
+This is a simple Java program that demonstrates how to use a **`for` loop** to print a star pattern.
+
+The program prints:
+
+```text
+* * * *
+* * * *
+* * * *
+* * * *
+```
+
+It uses a loop that runs from **1 to 4**, printing the same star pattern on each iteration.
+
+## 🛠️ Technologies Used
+
+* Java
+* `for` loop
+* `System.out.println()`
+
+## 📂 Program Structure
+
+```text
+Java Star Pattern
+│
+└── spattern.java
+```
+
+## 💻 Code
+
+```java
+public class spattern {
+
+    public static void main(String[] args) {
+
+        for(int line = 1; line <= 4; line++) {
+            System.out.println("* * * *");
+        }
+
+    }
+}
+```
+
+## ▶️ How to Run
+
+### 1. Compile the program
+
+```bash
+javac spattern.java
+```
+
+### 2. Run the program
+
+```bash
+java spattern
+```
+
+## 📤 Output
+
+```text
+* * * *
+* * * *
+* * * *
+* * * *
+```
+
+## 🎯 Concepts Learned
+
+* Java class structure
+* `main()` method
+* `for` loop
+* Loop iteration
+* Printing output using `System.out.println()`
+* Basic pattern programming
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+Computer Engineering Graduate
+
+---
+
+⭐ This is a beginner-friendly Java program created for practicing loops and pattern programming.
 
 
 
