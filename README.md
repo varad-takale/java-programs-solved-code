@@ -1057,14 +1057,7 @@ The program uses a counter variable starting from `1` and continues printing num
 1 2 3 4 5 .
 ```
 
-## 📚 Concepts Covered
 
-* Java `Scanner`
-* User Input
-* Variables
-* `while` Loop
-* Increment Operator
-* Conditional Expression
 
 
 
