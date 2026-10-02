@@ -309,7 +309,7 @@ javac adult.java
 java adult
 ```
 
-# program 6 - # 🔢 Largest of Two Numbers in Java
+# program 6 - 🔢 Largest of Two Numbers in Java
 
 A simple Java program that compares two integer values and determines which number is larger using an `if-else` statement.
 
