@@ -774,7 +774,7 @@ i am intelligent
 If the input is a number other than `1` or `2`, the `default` block executes.
 
 
-# program 11 - # Java Calculator
+# program 11 -  Java Calculator
 
 A simple **Java Calculator** program that performs basic arithmetic operations using user input and a `switch` statement.
 
