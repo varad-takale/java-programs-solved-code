@@ -1131,6 +1131,114 @@ java spattern
 * * * *
 ```
 
+# progrram 16 - # 🔄 Reverse Number in Java
+
+A simple Java program to **reverse the digits of a number** using a `while` loop.
+
+## 📌 Program Description
+
+The program takes the number:
+
+```text
+17603
+```
+
+and reverses its digits to produce:
+
+```text
+30671
+```
+
+It uses the `%` operator to extract the last digit and integer division `/` to remove the last digit from the original number.
+
+## 🛠️ Technologies Used
+
+* Java
+* `while` loop
+* Modulus `%` operator
+* Integer division `/`
+* Variables
+
+## 📂 File
+
+```text
+revnumber.java
+```
+
+## 💻 Source Code
+
+```java
+public class revnumber {
+
+    public static void main(String[] args) {
+        int n = 17603;
+        int rev = 0;
+
+        while (n > 0) {
+            int lastdigit = n % 10;
+            rev = (rev * 10) + lastdigit;
+            n = n / 10;
+        }
+
+        System.out.println(rev);
+    }
+}
+```
+
+## ▶️ Output
+
+```text
+30671
+```
+
+## 🧠 How It Works
+
+For `17603`:
+
+| Step | Last Digit | Reverse |
+| ---- | ---------: | ------: |
+| 1    |          3 |       3 |
+| 2    |          0 |      30 |
+| 3    |          6 |     306 |
+| 4    |          7 |    3067 |
+| 5    |          1 |   30671 |
+
+### Logic
+
+```text
+lastdigit = n % 10
+rev = (rev * 10) + lastdigit
+n = n / 10
+```
+
+The loop continues until `n` becomes `0`.
+
+## ▶️ How to Run
+
+Compile:
+
+```bash
+javac revnumber.java
+```
+
+Run:
+
+```bash
+java revnumber
+```
+
+## 🎯 Concepts Practiced
+
+* `while` loop
+* Modulus operator `%`
+* Integer division `/`
+* Number manipulation
+* Variables
+* Console output
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
