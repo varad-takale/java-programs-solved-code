@@ -1227,18 +1227,7 @@ Run:
 java revnumber
 ```
 
-## 🎯 Concepts Practiced
 
-* `while` loop
-* Modulus operator `%`
-* Integer division `/`
-* Number manipulation
-* Variables
-* Console output
-
-## 👨‍💻 Author
-
-**Varad Takale**
 
 
 
