@@ -1296,19 +1296,8 @@ hello world
 * Do-While Loop
 * `System.out.println()`
 
-## 🎯 Learning Objective
 
-This program helps beginners understand:
 
-* `do-while` loops
-* Loop conditions
-* Counter variables
-* Increment operators
-* Repeated execution in Java
-
-## 👨‍💻 Author
-
-**Varad Takale**
 
 
 
