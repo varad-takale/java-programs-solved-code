@@ -1228,7 +1228,7 @@ java revnumber
 ```
 
 
-# # Program 18 - Do While Loop in Java
+#  Program 18 - Do While Loop in Java
 
 ## 📌 Description
 
