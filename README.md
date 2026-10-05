@@ -1228,6 +1228,87 @@ java revnumber
 ```
 
 
+# # Program 18 - Do While Loop in Java
+
+## 📌 Description
+
+This Java program demonstrates the use of a **`do-while` loop**.
+
+The program starts a counter at `1` and prints **"hello world"** repeatedly. The counter is incremented after each print, and the loop continues while the counter is less than or equal to `10`.
+
+## 💻 Source Code
+
+```java
+public class dowhile {
+
+    public static void main(String[] args) {
+        int counter = 1;
+
+        do {
+            System.out.println("hello world");
+            counter++;
+        }
+        while (counter <= 10);
+    }
+}
+```
+
+## 🧠 Concept Used
+
+### Do-While Loop
+
+A `do-while` loop executes the block of code **at least once** before checking the condition.
+
+### Syntax
+
+```java
+do {
+    // statements
+} while (condition);
+```
+
+## 🔄 How It Works
+
+1. The variable `counter` is initialized to `1`.
+2. The `do` block prints `"hello world"`.
+3. The counter is increased by `1`.
+4. The condition `counter <= 10` is checked.
+5. The loop continues until the condition becomes false.
+
+## 📤 Output
+
+```text
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+```
+
+## 🛠️ Technologies Used
+
+* Java
+* Do-While Loop
+* `System.out.println()`
+
+## 🎯 Learning Objective
+
+This program helps beginners understand:
+
+* `do-while` loops
+* Loop conditions
+* Counter variables
+* Increment operators
+* Repeated execution in Java
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
