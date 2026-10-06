@@ -1297,6 +1297,59 @@ hello world
 * `System.out.println()`
 
 
+# Program 19 – Do-While Loop
+
+## 📌 Description
+
+This Java program demonstrates the use of a **`do-while` loop** and the **`break` statement**.
+
+The program continuously accepts numbers from the user and prints them. When the user enters a number that is a **multiple of 10**, the loop stops and an error message is displayed.
+
+## 🛠️ Concepts Used
+
+* Java
+* `Scanner` class
+* `do-while` loop
+* `if` statement
+* Modulus (`%`) operator
+* `break` statement
+* User input
+
+## ⚙️ How It Works
+
+1. The program asks the user to enter a number.
+2. It checks whether the number is divisible by 10.
+3. If it is **not** a multiple of 10, the number is printed.
+4. If it **is** a multiple of 10, the `break` statement terminates the loop.
+5. An error message is then displayed.
+
+## 💻 Example
+
+### Input
+
+```text
+enter the number : 5
+5
+enter the number : 12
+12
+enter the number : 27
+27
+enter the number : 30
+```
+
+### Output
+
+```text
+error : multiple of 10
+```
+
+## 📚 Learning Objective
+
+The purpose of this program is to understand how a **`do-while` loop** can be used when a block of code must execute at least once, and how the **`break` statement** can be used to exit a loop based on a condition.
+
+## 👨‍💻 Author
+
+Varad Takale
 
 
 
