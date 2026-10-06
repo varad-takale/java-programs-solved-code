@@ -1343,14 +1343,6 @@ enter the number : 30
 error : multiple of 10
 ```
 
-## 📚 Learning Objective
-
-The purpose of this program is to understand how a **`do-while` loop** can be used when a block of code must execute at least once, and how the **`break` statement** can be used to exit a loop based on a condition.
-
-## 👨‍💻 Author
-
-Varad Takale
-
 
 
 
