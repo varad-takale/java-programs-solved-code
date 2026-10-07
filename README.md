@@ -1343,6 +1343,81 @@ enter the number : 30
 error : multiple of 10
 ```
 
+# Java Program 20 – Multiplication Table
+
+## 📌 Description
+
+This Java program demonstrates how to create a **multiplication table from 1 to 10** using a `for` loop.
+
+The program takes a number as input from the user and prints its multiplication table.
+
+## 🛠️ Concepts Used
+
+* Java
+* `Scanner` class
+* `for` loop
+* Methods
+* User input
+* Multiplication operator (`*`)
+* `System.out.println()`
+
+## 💻 Program
+
+```java
+import java.util.*;
+
+class MultiplicationTable {
+
+    public static void printMultiplicationTable(int number) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " * " + i + " = " + n * i);
+        }
+    }
+
+    public static void main(String s[]) {
+        printMultiplicationTable(5);
+    }
+}
+```
+
+## ▶️ Example Output
+
+```text
+Enter number: 5
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+```
+
+## 🎯 Learning Objective
+
+The main objective of this program is to practice:
+
+1. Creating and calling methods.
+2. Taking input using `Scanner`.
+3. Using a `for` loop.
+4. Performing arithmetic operations.
+5. Printing formatted output in Java.
+
+## 📂 File Name
+
+`program 20 - Solution.java`
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
