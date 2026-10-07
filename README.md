@@ -1401,24 +1401,6 @@ Enter number: 5
 5 * 10 = 50
 ```
 
-## 🎯 Learning Objective
-
-The main objective of this program is to practice:
-
-1. Creating and calling methods.
-2. Taking input using `Scanner`.
-3. Using a `for` loop.
-4. Performing arithmetic operations.
-5. Printing formatted output in Java.
-
-## 📂 File Name
-
-`program 20 - Solution.java`
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
 
 
 
