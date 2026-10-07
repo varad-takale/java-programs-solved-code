@@ -1343,7 +1343,7 @@ enter the number : 30
 error : multiple of 10
 ```
 
-# Java Program 20 – Multiplication Table
+# Program 20 – Multiplication Table
 
 ## 📌 Description
 
