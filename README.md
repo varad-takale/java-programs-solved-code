@@ -1402,6 +1402,67 @@ Enter number: 5
 ```
 
 
+# Program 21 - Multiplication Table in Java
+
+## 📌 Description
+
+This Java program takes a number as input from the user and prints its multiplication table from **1 to 10**.
+
+The program uses the `Scanner` class to accept user input and a `for` loop to generate the multiplication table.
+
+## 🛠️ Concepts Used
+
+* Java
+* `Scanner` class
+* User input
+* `for` loop
+* Arithmetic multiplication
+* `System.out.println()`
+
+## 💻 How It Works
+
+1. The program asks the user to enter a number.
+2. The entered number is stored in an integer variable `n`.
+3. A `for` loop runs from `1` to `10`.
+4. The program multiplies the entered number by each value of `i`.
+5. The multiplication table is displayed on the console.
+
+## ▶️ Example
+
+### Input
+
+```text
+enter the number : 5
+```
+
+### Output
+
+```text
+5*1=5
+5*2=10
+5*3=15
+5*4=20
+5*5=25
+5*6=30
+5*7=35
+5*8=40
+5*9=45
+5*10=50
+```
+
+## 📂 File
+
+```text
+program 21 - multable.java
+```
+
+## 🎯 Purpose
+
+This program is useful for beginners learning **loops, user input, and basic arithmetic operations in Java**.
+
+## 👨‍💻 Author
+
+Varad Takale
 
 
 
