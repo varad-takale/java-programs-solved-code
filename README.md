@@ -1456,13 +1456,6 @@ enter the number : 5
 program 21 - multable.java
 ```
 
-## 🎯 Purpose
-
-This program is useful for beginners learning **loops, user input, and basic arithmetic operations in Java**.
-
-## 👨‍💻 Author
-
-Varad Takale
 
 
 
