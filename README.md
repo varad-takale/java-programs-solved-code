@@ -1456,6 +1456,93 @@ enter the number : 5
 program 21 - multable.java
 ```
 
+# Program 22: Prime Number Checker in Java
+
+## 📌 Description
+
+This Java program checks whether a given number is a prime number using a loop and the `Math.sqrt()` method.
+
+A prime number is a number greater than 1 that is divisible only by 1 and itself.
+
+## 🚀 Features
+
+* Takes an integer as input from the user.
+* Checks divisibility using a `for` loop.
+* Uses `Math.sqrt()` to optimize the checking process.
+* Displays whether the number is prime or not.
+
+## 🛠️ Technologies Used
+
+* **Language:** Java
+* **Concepts:** `Scanner`, `if-else`, `for` loop, Boolean variables, `Math.sqrt()`
+
+## 💻 Code Example
+
+```java
+import java.util.*;
+
+public class prime {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        if (n == 2) {
+            System.out.println("number is prime");
+        } else {
+            boolean isprime = true;
+
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    isprime = false;
+                }
+            }
+
+            if (isprime == true) {
+                System.out.println("number is prime");
+            } else {
+                System.out.println("number is not prime");
+            }
+        }
+    }
+}
+```
+
+## ▶️ Sample Output
+
+**Example 1:**
+
+```text
+Input:
+7
+
+Output:
+number is prime
+```
+
+**Example 2:**
+
+```text
+Input:
+8
+
+Output:
+number is not prime
+```
+
+## 📚 What I Learned
+
+* How to check whether a number is prime.
+* How to use loops and conditional statements in Java.
+* How to use Boolean variables to track a condition.
+* How to optimize prime checking with `Math.sqrt()`.
+
+## 👨‍💻 Author
+
+**Varad Takale**
+
+---
+
+⭐ If you find this program useful, feel free to star this repository!
 
 
 
