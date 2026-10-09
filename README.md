@@ -1529,20 +1529,7 @@ Output:
 number is not prime
 ```
 
-## 📚 What I Learned
 
-* How to check whether a number is prime.
-* How to use loops and conditional statements in Java.
-* How to use Boolean variables to track a condition.
-* How to optimize prime checking with `Math.sqrt()`.
-
-## 👨‍💻 Author
-
-**Varad Takale**
-
----
-
-⭐ If you find this program useful, feel free to star this repository!
 
 
 
