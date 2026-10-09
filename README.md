@@ -1476,35 +1476,6 @@ A prime number is a number greater than 1 that is divisible only by 1 and itself
 * **Language:** Java
 * **Concepts:** `Scanner`, `if-else`, `for` loop, Boolean variables, `Math.sqrt()`
 
-## 💻 Code Example
-
-```java
-import java.util.*;
-
-public class prime {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-
-        if (n == 2) {
-            System.out.println("number is prime");
-        } else {
-            boolean isprime = true;
-
-            for (int i = 2; i <= Math.sqrt(n); i++) {
-                if (n % i == 0) {
-                    isprime = false;
-                }
-            }
-
-            if (isprime == true) {
-                System.out.println("number is prime");
-            } else {
-                System.out.println("number is not prime");
-            }
-        }
-    }
-}
 ```
 
 ## ▶️ Sample Output
