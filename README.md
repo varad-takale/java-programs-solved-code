@@ -1552,13 +1552,7 @@ This Java program prints a right-angled triangle star pattern based on the numbe
    ```
 4. Enter the number of rows when prompted.
 
-## 📚 Learning Objective
-This program helps beginners understand nested loops and develop logical thinking through simple pattern-printing exercises.
 
----
-**Author:** Varad Takale
-
-**Repository:** Java Programming Practice 🚀
 
 
 
