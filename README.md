@@ -1500,6 +1500,65 @@ Output:
 number is not prime
 ```
 
+# ⭐ Star Pattern Program in Java
+
+## 📌 Description
+This Java program prints a right-angled triangle star pattern based on the number of rows entered by the user. It uses nested `for` loops to print stars (`*`) in increasing order.
+
+## 💻 Code Explanation
+- Takes the number of rows as input using the `Scanner` class.
+- Uses an outer `for` loop to control the number of rows.
+- Uses an inner `for` loop to print stars in each row.
+- Uses `System.out.println()` to move to the next line after each row.
+
+## 🧑‍💻 Example
+
+**Input:**
+```text
+5
+```
+
+**Output:**
+```text
+*
+**
+***
+****
+*****
+```
+
+## 🛠️ Technologies Used
+- Java
+- Scanner class
+- Nested `for` loops
+
+## 🎯 Concepts Covered
+- User input using `Scanner`
+- Loops in Java
+- Nested `for` loops
+- Pattern printing
+- Basic problem-solving
+
+## ▶️ How to Run
+
+1. Save the file as `starpatt.java`.
+2. Compile the program:
+   ```bash
+   javac starpatt.java
+   ```
+3. Run the program:
+   ```bash
+   java starpatt
+   ```
+4. Enter the number of rows when prompted.
+
+## 📚 Learning Objective
+This program helps beginners understand nested loops and develop logical thinking through simple pattern-printing exercises.
+
+---
+**Author:** Varad Takale
+
+**Repository:** Java Programming Practice 🚀
 
 
 
