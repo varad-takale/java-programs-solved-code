@@ -1500,7 +1500,7 @@ Output:
 number is not prime
 ```
 
-# ⭐ Star Pattern Program in Java
+# program 23 - ⭐ Star Pattern Program in Java
 
 ## 📌 Description
 This Java program prints a right-angled triangle star pattern based on the number of rows entered by the user. It uses nested `for` loops to print stars (`*`) in increasing order.
