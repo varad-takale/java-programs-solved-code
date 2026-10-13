@@ -1552,6 +1552,62 @@ This Java program prints a right-angled triangle star pattern based on the numbe
    ```
 4. Enter the number of rows when prompted.
 
+# program 24 -  Java Inverted Star Pattern ⭐
+
+## 📌 Description
+This Java program prints an inverted right-angled triangle star pattern based on the number entered by the user. Each row contains one fewer star than the previous row.
+
+## 💻 Code Explanation
+- Takes an integer `n` as input from the user.
+- Uses an outer `for` loop to control the rows.
+- Uses an inner `for` loop to print the stars (`*`).
+- Prints a new line after each row to create the pattern.
+
+## 🧑‍💻 Example
+
+**Input:**
+```text
+5
+```
+
+**Output:**
+```text
+*****
+****
+***
+**
+*
+```
+
+## 🛠️ Technologies Used
+- Java
+- Scanner class for user input
+- Nested `for` loops
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone <your-repository-url>
+   ```
+2. Navigate to the project directory.
+3. Compile the Java file:
+   ```bash
+   javac starpatt2.java
+   ```
+4. Run the program:
+   ```bash
+   java starpatt2
+   ```
+5. Enter an integer to display the pattern.
+
+## 🎯 Learning Objectives
+- Understanding nested loops in Java.
+- Practicing user input with the `Scanner` class.
+- Learning how to print patterns using loops.
+
+## 👨‍💻 Author
+Varad Takale
 
 
 
