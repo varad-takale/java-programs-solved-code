@@ -1601,13 +1601,7 @@ This Java program prints an inverted right-angled triangle star pattern based on
    ```
 5. Enter an integer to display the pattern.
 
-## 🎯 Learning Objectives
-- Understanding nested loops in Java.
-- Practicing user input with the `Scanner` class.
-- Learning how to print patterns using loops.
 
-## 👨‍💻 Author
-Varad Takale
 
 
 
