@@ -1600,9 +1600,55 @@ This Java program prints an inverted right-angled triangle star pattern based on
    java starpatt2
    ```
 5. Enter an integer to display the pattern.
+   
 
 
 
+# Java Half Pyramid Alphabet Pattern
+
+## 📌 Description
+This Java program prints a half-pyramid pattern using consecutive uppercase alphabet characters, starting from `A`. The number of rows is provided by the user.
+
+## 💻 Example Output
+
+For input `4`:
+
+```text
+A
+BC
+DEF
+GHIJ
+```
+
+## ⚙️ Concepts Used
+- Java programming
+- Nested `for` loops
+- `Scanner` class for user input
+- Character data type (`char`)
+- `System.out.print()` and `System.out.println()`
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone <your-repository-url>
+   ```
+2. Navigate to the project directory.
+3. Compile the Java program:
+   ```bash
+   javac halfpyrm.java
+   ```
+4. Run the program:
+   ```bash
+   java halfpyrm
+   ```
+5. Enter the number of rows when prompted.
+
+## 📚 Learning Objective
+To practice nested loops, user input, and character incrementing in Java by generating an alphabet-based half-pyramid pattern.
+
+## 👨‍💻 Author
+Varad Takale
 
 
 
