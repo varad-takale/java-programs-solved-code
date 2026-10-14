@@ -1604,7 +1604,7 @@ This Java program prints an inverted right-angled triangle star pattern based on
 
 
 
-# Java Half Pyramid Alphabet Pattern
+# program 25 - Java Half Pyramid Alphabet Pattern
 
 ## 📌 Description
 This Java program prints a half-pyramid pattern using consecutive uppercase alphabet characters, starting from `A`. The number of rows is provided by the user.
