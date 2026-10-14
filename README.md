@@ -1644,11 +1644,6 @@ GHIJ
    ```
 5. Enter the number of rows when prompted.
 
-## 📚 Learning Objective
-To practice nested loops, user input, and character incrementing in Java by generating an alphabet-based half-pyramid pattern.
-
-## 👨‍💻 Author
-Varad Takale
 
 
 
