@@ -1695,14 +1695,7 @@ Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
    java primefun
    ```
 
-## 🎯 Learning Objective
-To understand prime-number checking, methods in Java, loops, conditional statements, and finding prime numbers within a given range.
 
----
-
-**Author:** Varad Takale
-
-**Repository:** Java Programming Practice
 
 
 
