@@ -1662,7 +1662,7 @@ This Java program demonstrates how to check whether a number is prime and print 
 Checks whether a number is prime by testing its divisibility from 2 up to its square root.
 
 ### 2. `primesinrange(int n)`
-Iterates through numbers from 2 to `n` and prints the numbers for which `isprime()` returns `true`.
+Iterates through numbers from 2 to `n` and prints the numbers for which `isprime()` returns `true`
 
 ### 3. `main(String[] args)`
 Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
