@@ -1645,7 +1645,64 @@ GHIJ
 5. Enter the number of rows when prompted.
 
 
+# Java Program 26: Prime Numbers in a Range
 
+## 📌 Description
+This Java program demonstrates how to check whether a number is prime and print all prime numbers within a given range using user-defined methods.
+
+## 🚀 Features
+- Checks whether a number is prime using the `isprime()` method.
+- Finds prime numbers from 2 up to a specified limit using the `primesinrange()` method.
+- Uses a `for` loop and the `Math.sqrt()` method to check divisibility.
+- Demonstrates method creation and method calling in Java.
+
+## 💻 Code Explanation
+
+### 1. `isprime(int n)`
+Checks whether a number is prime by testing its divisibility from 2 up to its square root.
+
+### 2. `primesinrange(int n)`
+Iterates through numbers from 2 to `n` and prints the numbers for which `isprime()` returns `true`.
+
+### 3. `main(String[] args)`
+Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
+
+## 🖥️ Sample Output
+
+```text
+2 3 5 7 11 13 17 19
+```
+
+## 🛠️ Technologies Used
+- Java
+- Loops and conditional statements
+- User-defined methods
+- `Math.sqrt()` method
+
+## ▶️ How to Run
+
+1. Save the file as `primefun.java`.
+2. Open a terminal in the directory containing the file.
+3. Compile the program:
+
+   ```bash
+   javac primefun.java
+   ```
+
+4. Run the program:
+
+   ```bash
+   java primefun
+   ```
+
+## 🎯 Learning Objective
+To understand prime-number checking, methods in Java, loops, conditional statements, and finding prime numbers within a given range.
+
+---
+
+**Author:** Varad Takale
+
+**Repository:** Java Programming Practice
 
 
 
