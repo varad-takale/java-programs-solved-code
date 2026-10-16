@@ -1736,15 +1736,7 @@ binary of 1111 = 15
    java bintodec
    ```
 
-## 📚 Learning Outcome
-Understand how to convert a binary number into a decimal number using basic Java programming concepts.
 
-## 👨‍💻 Language
-Java
-
----
-
-⭐ If you find this program helpful, consider giving the repository a star!
 
 
 
