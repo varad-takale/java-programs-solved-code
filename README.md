@@ -1694,7 +1694,7 @@ Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
    ```bash
    java primefun
    ```
-# program 27 - # Binary to Decimal Conversion in Java
+# program 27 -  Binary to Decimal Conversion in Java
 
 ## 📌 Description
 This Java program converts a binary number into its decimal equivalent using a `while` loop, the modulo operator, and powers of 2.
