@@ -1694,7 +1694,57 @@ Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
    ```bash
    java primefun
    ```
+# program 27 - # Binary to Decimal Conversion in Java
 
+## 📌 Description
+This Java program converts a binary number into its decimal equivalent using a `while` loop, the modulo operator, and powers of 2.
+
+## 🚀 Concepts Used
+- Java methods
+- `while` loop
+- Modulo operator (`%`)
+- Integer division (`/`)
+- `Math.pow()`
+- Binary to decimal number conversion
+
+## 💻 Code Explanation
+1. Store the original binary number in `mynumb`.
+2. Initialize `decnum` and `pow` to `0`.
+3. Extract the last digit using `binum % 10`.
+4. Multiply the digit by \(2^{pow}\) and add it to the decimal result.
+5. Increment `pow` and remove the last digit using `binum / 10`.
+6. Print the decimal equivalent.
+
+## 🧪 Example Output
+
+```text
+binary of 1111 = 15
+```
+
+## ▶️ How to Run
+
+1. Save the code in a file named `bintodec.java`.
+2. Compile the program:
+
+   ```bash
+   javac bintodec.java
+   ```
+
+3. Run the program:
+
+   ```bash
+   java bintodec
+   ```
+
+## 📚 Learning Outcome
+Understand how to convert a binary number into a decimal number using basic Java programming concepts.
+
+## 👨‍💻 Language
+Java
+
+---
+
+⭐ If you find this program helpful, consider giving the repository a star!
 
 
 
