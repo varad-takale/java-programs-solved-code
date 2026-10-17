@@ -1735,7 +1735,7 @@ binary of 1111 = 15
    ```bash
    java bintodec
    ```
-# Java Arrays Program 📊
+# program 28 - Java Arrays Program 📊
 
 ## 📌 Description
 This Java program demonstrates the basic use of **arrays and user input** in Java.
