@@ -1735,7 +1735,98 @@ binary of 1111 = 15
    ```bash
    java bintodec
    ```
+# Java Arrays Program 📊
 
+## 📌 Description
+This Java program demonstrates the basic use of **arrays and user input** in Java.
+
+It accepts marks for three subjects:
+- Physics
+- Chemistry
+- Mathematics
+
+The program stores the marks in an integer array, displays the marks for each subject, and calculates the average percentage.
+
+## 🚀 Features
+- Uses an integer array to store subject marks.
+- Accepts user input using the `Scanner` class.
+- Displays marks for individual subjects.
+- Calculates and displays the average percentage.
+
+## 🛠️ Technologies Used
+- **Language:** Java
+- **Concepts:** Arrays, Scanner, Variables, Arithmetic Operators, Console Output
+
+## 💻 Code Example
+```java
+import java.util.*;
+
+public class arrys {
+    public static void main(String[] args) {
+        int Mark[] = new int[100];
+        Scanner sc = new Scanner(System.in);
+
+        Mark[0] = sc.nextInt();
+        Mark[1] = sc.nextInt();
+        Mark[2] = sc.nextInt();
+
+        System.out.println("phy :" + Mark[0]);
+        System.out.println("chem :" + Mark[1]);
+        System.out.println("math :" + Mark[2]);
+
+        int percentage = (Mark[0] + Mark[1] + Mark[2]) / 3;
+        System.out.println("percentage :" + percentage + "%");
+    }
+}
+```
+
+## ▶️ How to Run
+
+1. Install the Java Development Kit (JDK).
+2. Save the code in a file named `arrys.java`.
+3. Open a terminal in the directory containing the file.
+4. Compile the program:
+
+   ```bash
+   javac arrys.java
+   ```
+
+5. Run the program:
+
+   ```bash
+   java arrys
+   ```
+
+6. Enter the marks for Physics, Chemistry, and Mathematics when prompted.
+
+## 📥 Sample Input
+```text
+80
+75
+90
+```
+
+## 📤 Sample Output
+```text
+phy :80
+chem :75
+math :90
+percentage :81%
+```
+
+## 📚 Concepts Learned
+- Array declaration and initialization
+- Accessing array elements using indexes
+- Taking input with `Scanner`
+- Performing arithmetic calculations
+- Displaying output using `System.out.println()`
+
+## 👨‍💻 Author
+**Varad Takale**
+
+---
+
+⭐ If you find this program helpful, consider giving the repository a star!
 
 
 
