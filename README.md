@@ -1831,7 +1831,84 @@ percentage :81%
 
 
 
+# Linear Search in Java
 
+## 📌 Overview
+This program demonstrates the **Linear Search Algorithm** in Java. It searches for a given key in an array by checking each element one by one and returns the index of the element if it is found.
+
+If the key is not present in the array, the program returns `-1` and displays `NOT FOUND`.
+
+## 🚀 Features
+- Searches for an element in an integer array.
+- Uses a simple `for` loop to check each element.
+- Returns the index of the matching element.
+- Displays a message if the element is not found.
+- Accepts user input using the `Scanner` class.
+
+## 🛠️ Technologies Used
+- **Language:** Java
+- **Concepts:** Arrays, Loops, Methods, Conditional Statements, User Input
+
+## 💻 Code Explanation
+1. **Array Initialization:** Creates an integer array containing the elements `2, 3, 4, 5, 6, 7, 8, 9`.
+2. **User Input:** Accepts the key to search for.
+3. **Linear Search Method:** Checks each array element against the key.
+4. **Index Return:** Returns the index when the key is found.
+5. **Result Display:** Prints the index of the key or `NOT FOUND` if the key does not exist.
+
+## 📂 Example Execution
+
+### Example 1: Key Found
+**Input:**
+```text
+5
+```
+
+**Output:**
+```text
+KEY IS AT INDEX :3
+```
+
+### Example 2: Key Not Found
+**Input:**
+```text
+10
+```
+
+**Output:**
+```text
+NOT FOUND
+```
+
+## ⏱️ Complexity Analysis
+- **Best Case:** O(1) — The key is found at the first index.
+- **Average Case:** O(n) — The program checks some of the array elements.
+- **Worst Case:** O(n) — The key is at the last index or is not present.
+- **Space Complexity:** O(1) — The search uses a constant amount of additional space.
+
+Here, `n` represents the number of elements in the array.
+
+## ▶️ How to Run
+
+**Step 1:** Save the program as `linear.java`.
+
+**Step 2:** Compile the program:
+```bash
+javac linear.java
+```
+
+**Step 3:** Run the program:
+```bash
+java linear
+```
+
+**Step 4:** Enter the number you want to search for.
+
+## 🎯 Learning Outcome
+This program helps beginners understand how linear search works, how to traverse arrays, how to create and call methods, and how to return search results.
+
+## 👨‍💻 Author
+**Varad Takale**
 
 
 
