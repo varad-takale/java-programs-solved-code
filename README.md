@@ -1902,14 +1902,6 @@ javac linear.java
 java linear
 ```
 
-**Step 4:** Enter the number you want to search for.
-
-## 🎯 Learning Outcome
-This program helps beginners understand how linear search works, how to traverse arrays, how to create and call methods, and how to return search results.
-
-## 👨‍💻 Author
-**Varad Takale**
-
 
 
 
