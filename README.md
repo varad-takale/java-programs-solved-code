@@ -1964,17 +1964,6 @@ NUMBER AT INDEX :0
 - Array Indexing
 - `Integer.MIN_VALUE`
 
-## ⏱️ Complexity Analysis
-- **Time Complexity:** O(n) — Each array element is checked once.
-- **Space Complexity:** O(1) — Only a constant amount of extra space is used.
-
-## 🎯 Learning Objective
-Understand how to traverse an array, find its largest element, and return the index of that element using Java.
-
----
-**Language:** Java  
-**Topic:** Arrays  
-**Program:** 30 – Largest Element in an Array
 
 
 
