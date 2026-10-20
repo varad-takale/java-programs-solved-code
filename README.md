@@ -1903,7 +1903,78 @@ java linear
 ```
 
 
+# Largest Element in an Array – Java
 
+## 📌 Overview
+This Java program finds the largest element in an integer array and displays both the largest value and its index.
+
+It uses a `getlargest()` method to traverse the array and identify the index of the largest element.
+
+## 💻 Code
+```java
+public class largestofArray {
+    public static int getlargest(int numbers[]) {
+        int largest = Integer.MIN_VALUE;
+        int index = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (largest < numbers[i]) {
+                largest = numbers[i];
+                index = i;
+            }
+        }
+        return index;
+    }
+
+    public static void main(String[] args) {
+        int numbers[] = {10, 7, 5, 8, 2, 9, 1, 4};
+        int index = getlargest(numbers);
+
+        System.out.println("LARGEST VALUE IN ARRAY IS :" + numbers[index]);
+        System.out.println("NUMBER AT INDEX :" + index);
+    }
+}
+```
+
+## ⚙️ How It Works
+1. Initialize `largest` with `Integer.MIN_VALUE`.
+2. Initialize `index` to `0`.
+3. Traverse the array using a `for` loop.
+4. Compare each element with the current largest value.
+5. If a larger element is found, update `largest` and its index.
+6. Return the index of the largest element.
+7. Print the largest value and its index.
+
+## ▶️ Sample Input
+```text
+Array: {10, 7, 5, 8, 2, 9, 1, 4}
+```
+
+## 📤 Output
+```text
+LARGEST VALUE IN ARRAY IS :10
+NUMBER AT INDEX :0
+```
+
+## 🛠️ Concepts Used
+- Java Arrays
+- Methods and Return Values
+- `for` Loop
+- `if` Condition
+- Array Indexing
+- `Integer.MIN_VALUE`
+
+## ⏱️ Complexity Analysis
+- **Time Complexity:** O(n) — Each array element is checked once.
+- **Space Complexity:** O(1) — Only a constant amount of extra space is used.
+
+## 🎯 Learning Objective
+Understand how to traverse an array, find its largest element, and return the index of that element using Java.
+
+---
+**Language:** Java  
+**Topic:** Arrays  
+**Program:** 30 – Largest Element in an Array
 
 
 
