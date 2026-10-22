@@ -1965,7 +1965,67 @@ NUMBER AT INDEX :0
 - `Integer.MIN_VALUE`
 
 
+# Binary Search in Java
 
+## 📌 Overview
+This project demonstrates the implementation of the **Binary Search Algorithm** using Java. It searches for a specific element in an array and returns its index if found.
+
+## 🚀 Features
+- Searches for an element using binary search.
+- Uses an iterative approach with a `while` loop.
+- Returns the index of the element if found.
+- Returns `-1` if the element is not found.
+- Accepts user input using the `Scanner` class.
+
+## 🛠️ Technologies Used
+- **Language:** Java
+- **Concepts:** Arrays, Loops, Conditional Statements, Binary Search
+
+## 📂 Code Explanation
+1. Initialize `start` to `0` and `end` to the last index of the array.
+2. Calculate the middle index using `(start + end) / 2`.
+3. Compare the middle element with the target key.
+4. If the middle element matches the key, return its index.
+5. If the middle element is smaller than the key, search the right half.
+6. Otherwise, search the left half.
+7. If the element is not found, return `-1`.
+
+## 💻 Example
+
+**Input:**
+```text
+5
+```
+
+**Output:**
+```text
+index for key is :2
+```
+
+## ⏱️ Complexity Analysis
+- **Time Complexity:** O(log n) — Binary search eliminates half of the remaining search space in each iteration.
+- **Space Complexity:** O(1) — The algorithm uses a constant amount of extra space.
+
+## ⚠️ Important Note
+**Binary search requires the array to be sorted in ascending order.** The current array in your program is:
+
+```java
+int numbers[] = {2, 4, 5, 6, 7, 8, 9, 1};
+```
+
+This array is not sorted, so the program may return an incorrect result for some inputs.
+
+Use a sorted array instead:
+
+```java
+int numbers[] = {1, 2, 4, 5, 6, 7, 8, 9};
+```
+
+## 🎯 Learning Outcome
+This project helps beginners understand binary search, array indexing, iterative searching, and time complexity in Java.
+
+## 👨‍💻 Author
+**Varad Takale**
 
 
 
