@@ -1965,7 +1965,7 @@ NUMBER AT INDEX :0
 - `Integer.MIN_VALUE`
 
 
-# Binary Search in Java
+# program 31 - Binary Search in Java
 
 ## 📌 Overview
 This project demonstrates the implementation of the **Binary Search Algorithm** using Java. It searches for a specific element in an array and returns its index if found.
@@ -2021,11 +2021,6 @@ Use a sorted array instead:
 int numbers[] = {1, 2, 4, 5, 6, 7, 8, 9};
 ```
 
-## 🎯 Learning Outcome
-This project helps beginners understand binary search, array indexing, iterative searching, and time complexity in Java.
-
-## 👨‍💻 Author
-**Varad Takale**
 
 
 
