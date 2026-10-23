@@ -2022,7 +2022,54 @@ int numbers[] = {1, 2, 4, 5, 6, 7, 8, 9};
 ```
 
 
+# Java Program 32: Print All Pairs in an Array
 
+## 📌 Description
+This Java program prints all possible pairs of elements in an array. It uses **nested `for` loops** to generate pairs and counts the total number of pairs.
+
+## 💻 Code Explanation
+- **Array:** Stores the elements `{2, 3, 4, 5, 6, 7, 8}`.
+- **Outer Loop:** Selects the current element from the array.
+- **Inner Loop:** Pairs the current element with every element that comes after it.
+- **Pair Counter (`tp`):** Counts the total number of pairs printed.
+- **Output:** Displays all pairs and the total number of pairs.
+
+## 🧑‍💻 Technologies Used
+- Java
+- Nested `for` loops
+- Arrays
+
+## 📂 Example Input
+```java
+int numbers[] = {2, 3, 4, 5, 6, 7, 8};
+```
+
+## 📤 Output
+```text
+(23)(24)(25)(26)(27)(28)
+(34)(35)(36)(37)(38)
+(45)(46)(47)(48)
+(56)(57)(58)
+(67)(68)
+(78)
+Total Pairs = 21
+```
+
+**Note:** The output follows your current code, which prints each pair by joining the two numbers without a comma or space.
+
+## ⏱️ Time Complexity
+- **O(n²)** — The program uses nested loops to generate all possible pairs.
+
+## 💾 Space Complexity
+- **O(1)** auxiliary space — The program uses only a few extra variables, excluding the input array.
+
+## 🎯 Learning Outcome
+- Understand nested loops in Java.
+- Learn how to generate pairs from an array.
+- Understand how to count combinations of array elements.
+
+---
+⭐ If you find this program helpful, consider giving this repository a star!
 
 
 
