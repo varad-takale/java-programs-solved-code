@@ -2055,21 +2055,8 @@ int numbers[] = {2, 3, 4, 5, 6, 7, 8};
 Total Pairs = 21
 ```
 
-**Note:** The output follows your current code, which prints each pair by joining the two numbers without a comma or space.
 
-## ⏱️ Time Complexity
-- **O(n²)** — The program uses nested loops to generate all possible pairs.
 
-## 💾 Space Complexity
-- **O(1)** auxiliary space — The program uses only a few extra variables, excluding the input array.
-
-## 🎯 Learning Outcome
-- Understand nested loops in Java.
-- Learn how to generate pairs from an array.
-- Understand how to count combinations of array elements.
-
----
-⭐ If you find this program helpful, consider giving this repository a star!
 
 
 
