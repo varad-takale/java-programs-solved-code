@@ -2129,14 +2129,6 @@ For example, for the array `{2, 4, 6}`, the possible subarrays are:
 - **Time Complexity:** O(n³) — due to the three nested loops.
 - **Auxiliary Space Complexity:** O(1) — the program uses only a constant amount of additional space, excluding the output.
 
-## 🎯 Learning Objectives
-- Understand subarrays in Java.
-- Practice nested loops.
-- Learn array traversal.
-- Calculate the total number of subarrays.
-
-## 👨‍💻 Author
-Varad Takale
 
 
 
