@@ -2055,7 +2055,88 @@ int numbers[] = {2, 3, 4, 5, 6, 7, 8};
 Total Pairs = 21
 ```
 
+# Java Subarray Program
 
+## 📌 Description
+This Java program prints all possible subarrays of a given array and calculates the total number of subarrays.
+
+It uses **nested loops** to generate subarrays and a third loop to print the elements of each subarray.
+
+## 💻 Technologies Used
+- Java
+- Nested Loops
+- Arrays
+
+## 📝 Code Explanation
+The program uses the following variables:
+
+- `start`: Represents the starting index of a subarray.
+- `end`: Represents the ending index of a subarray.
+- `k`: Iterates through the elements of the current subarray.
+- `ts`: Counts the total number of subarrays.
+
+The program uses three nested loops:
+1. The first loop selects the starting index.
+2. The second loop selects the ending index.
+3. The third loop prints the elements between the starting and ending indices.
+
+Finally, the program displays the total number of subarrays.
+
+## 🚀 Example
+
+### Input
+```java
+int numbers[] = {2, 4, 6, 8, 10};
+```
+
+### Output
+```text
+2
+2 4
+2 4 6
+2 4 6 8
+2 4 6 8 10
+
+4
+4 6
+4 6 8
+4 6 8 10
+
+6
+6 8
+6 8 10
+
+8
+8 10
+
+10
+
+Total Subarrays =15
+```
+
+## 🧠 Key Concept
+A **subarray** is a contiguous part of an array.
+
+For example, for the array `{2, 4, 6}`, the possible subarrays are:
+- `{2}`
+- `{2, 4}`
+- `{2, 4, 6}`
+- `{4}`
+- `{4, 6}`
+- `{6}`
+
+## ⏱️ Time and Space Complexity
+- **Time Complexity:** O(n³) — due to the three nested loops.
+- **Auxiliary Space Complexity:** O(1) — the program uses only a constant amount of additional space, excluding the output.
+
+## 🎯 Learning Objectives
+- Understand subarrays in Java.
+- Practice nested loops.
+- Learn array traversal.
+- Calculate the total number of subarrays.
+
+## 👨‍💻 Author
+Varad Takale
 
 
 
