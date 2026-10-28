@@ -2188,12 +2188,7 @@ Max SUm =30
 - Find the maximum sum in an array.
 - Improve problem-solving skills.
 
-## 👨‍💻 Author
-Varad Takale
 
----
-
-⭐ If you find this repository helpful, consider giving it a star!
 
 
 
