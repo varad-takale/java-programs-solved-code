@@ -2130,6 +2130,70 @@ For example, for the array `{2, 4, 6}`, the possible subarrays are:
 - **Auxiliary Space Complexity:** O(1) — the program uses only a constant amount of additional space, excluding the output.
 
 
+#program 34 - Subarray Sum in Java
+
+## 📌 Description
+This Java program finds the sum of all possible subarrays of a given integer array and identifies the maximum subarray sum.
+
+It uses three nested `for` loops to generate subarrays, calculate their sums, and track the maximum sum.
+
+## 🛠️ Technologies Used
+- Java
+- Arrays
+- Nested Loops
+- Basic Problem Solving
+
+## 💻 Code Example
+```java
+int numbers[] = {2, 4, 6, 8, 10};
+```
+
+## ⚙️ How It Works
+1. Initialize `MaxSum` with the smallest possible integer value.
+2. Use the outer loop to select the starting index of a subarray.
+3. Use the second loop to select the ending index.
+4. Use the third loop to calculate the sum of each subarray.
+5. Print every subarray sum.
+6. Update `MaxSum` whenever a larger sum is found.
+7. Print the maximum subarray sum.
+
+## 📊 Sample Output
+```text
+2
+6
+12
+20
+30
+4
+10
+18
+28
+6
+14
+24
+8
+18
+10
+Max SUm =30
+```
+
+## ⏱️ Complexity Analysis
+- **Time Complexity:** O(n³), because three nested loops are used.
+- **Space Complexity:** O(1), because only a few extra variables are used.
+
+## 🎯 Learning Objectives
+- Understand subarrays in Java.
+- Practice nested loops.
+- Calculate subarray sums.
+- Find the maximum sum in an array.
+- Improve problem-solving skills.
+
+## 👨‍💻 Author
+Varad Takale
+
+---
+
+⭐ If you find this repository helpful, consider giving it a star!
 
 
 
