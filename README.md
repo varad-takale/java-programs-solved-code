@@ -2192,7 +2192,7 @@ Max SUm =30
 
 
 
-# Trapping Rain Water in Java 🌧️
+#program 35 - Trapping Rain Water in Java 🌧️
 
 ## 📌 Description
 This Java program calculates the total amount of rainwater that can be trapped between bars of different heights after rainfall.
