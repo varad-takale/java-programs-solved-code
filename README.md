@@ -2228,11 +2228,6 @@ int height[] = {4, 2, 0, 6, 3, 2, 5};
 - **Time Complexity:** O(n) — The array is traversed three times.
 - **Space Complexity:** O(n) — Two additional arrays are used.
 
-## 📚 Concepts Practiced
-- Array traversal
-- Prefix and suffix maximums
-- Mathematical calculations
-- Problem-solving with Java
 
 ## 🚀 How to Run
 1. Save the code in a file named `trapped.java`.
@@ -2245,8 +2240,6 @@ int height[] = {4, 2, 0, 6, 3, 2, 5};
    java trapped
    ```
 
-## 🎯 Learning Outcome
-This program helps understand how to solve the Trapping Rain Water problem using arrays and maximum-height calculations.
 
 
 
