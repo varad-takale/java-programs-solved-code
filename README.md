@@ -2192,6 +2192,61 @@ Max SUm =30
 
 
 
+# Trapping Rain Water in Java 🌧️
+
+## 📌 Description
+This Java program calculates the total amount of rainwater that can be trapped between bars of different heights after rainfall.
+
+It uses the **Left Maximum and Right Maximum** approach to determine how much water can be stored at each position.
+
+## 💻 Technologies Used
+- Java
+- Arrays
+- Loops
+- `Math.max()` and `Math.min()`
+
+## ⚙️ How It Works
+1. Create a `leftmax` array to store the maximum height from the left side.
+2. Create a `rightmax` array to store the maximum height from the right side.
+3. Calculate the water level at each position using the minimum of the two maximum heights.
+4. Subtract the current bar's height from the water level.
+5. Add the trapped water at each position to get the total amount.
+
+## 🧮 Example
+
+**Input:**
+```java
+int height[] = {4, 2, 0, 6, 3, 2, 5};
+```
+
+**Output:**
+```text
+11
+```
+
+## ⏱️ Complexity Analysis
+- **Time Complexity:** O(n) — The array is traversed three times.
+- **Space Complexity:** O(n) — Two additional arrays are used.
+
+## 📚 Concepts Practiced
+- Array traversal
+- Prefix and suffix maximums
+- Mathematical calculations
+- Problem-solving with Java
+
+## 🚀 How to Run
+1. Save the code in a file named `trapped.java`.
+2. Compile the program:
+   ```bash
+   javac trapped.java
+   ```
+3. Run the program:
+   ```bash
+   java trapped
+   ```
+
+## 🎯 Learning Outcome
+This program helps understand how to solve the Trapping Rain Water problem using arrays and maximum-height calculations.
 
 
 
