@@ -1669,12 +1669,6 @@ Calls `primesinrange(20)` to print all prime numbers from 2 to 20.
 2 3 5 7 11 13 17 19
 ```
 
-## 🛠️ Technologies Used
-- Java
-- Loops and conditional statements
-- User-defined methods
-- `Math.sqrt()` method
-
 ## ▶️ How to Run
 
 1. Save the file as `primefun.java`.
