@@ -787,11 +787,7 @@ A simple **Java Calculator** program that performs basic arithmetic operations u
 * Modulus `%`
 * User input using `Scanner`
 
-## 🛠️ Technologies
 
-* Java
-* Scanner
-* Switch Statement
 
 ## 💡 Example
 
