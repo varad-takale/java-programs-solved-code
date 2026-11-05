@@ -2331,22 +2331,7 @@ original array = 64 25 12 22 11
 sorted array = 11 12 22 25 64
 ```
 
-## 🛠️ Technologies Used
 
-- Java
-- Scanner
-- Arrays
-- Selection Sort Algorithm
-
-## 🎯 Learning Objective
-
-This program helps in understanding:
-- Arrays in Java
-- Nested loops
-- Searching for the minimum element
-- Swapping array elements
-- Basic sorting algorithms
-- Time and space complexity
 
 
 
