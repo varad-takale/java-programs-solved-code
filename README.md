@@ -2211,7 +2211,142 @@ int height[] = {4, 2, 0, 6, 3, 2, 5};
 
 
 
+# Program 36 - Selection Sort
 
+## 📌 Description
+
+This Java program implements the **Selection Sort** algorithm to sort an array in ascending order.
+
+The program:
+- Takes the size of the array from the user.
+- Takes array elements as input.
+- Displays the original array.
+- Sorts the array using **Selection Sort**.
+- Displays the sorted array.
+
+## 🧠 How Selection Sort Works
+
+Selection Sort repeatedly finds the **smallest element** from the unsorted part of the array and places it at the correct position.
+
+For example:
+
+```text
+Original Array:
+64 25 12 22 11
+
+After Sorting:
+11 12 22 25 64
+```
+
+### Steps
+
+1. Start from the first element.
+2. Find the smallest element in the remaining unsorted array.
+3. Swap the smallest element with the current element.
+4. Move to the next position.
+5. Repeat until the entire array is sorted.
+
+The program finds the minimum position using a nested loop and then swaps the elements.
+
+## 💻 Code
+
+```java
+import java.util.Scanner;
+
+public class selection {
+
+    public static void selectionsort(int arr[]) {
+        for (int i = 0; i < arr.length - 1; i++) {
+
+            int minpose = i;
+
+            for (int j = i + 1; j < arr.length; j++) {
+
+                if (arr[minpose] > arr[j]) {
+                    minpose = j;
+                }
+            }
+
+            int temp = arr[minpose];
+            arr[minpose] = arr[i];
+            arr[i] = temp;
+        }
+    }
+
+    public static void printarr(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the size of the arr : ");
+        int n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+        System.out.println("Enter numbers : ");
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("original array = ");
+        printarr(arr);
+
+        selectionsort(arr);
+
+        System.out.println();
+
+        System.out.print("sorted array = ");
+        printarr(arr);
+
+        sc.close();
+    }
+}
+```
+
+## ⏱️ Complexity
+
+| Complexity | Value |
+|---|---|
+| Time Complexity | O(n²) |
+| Space Complexity | O(1) |
+
+## 📥 Example Input
+
+```text
+Enter the size of the arr : 5
+Enter numbers :
+64 25 12 22 11
+```
+
+## 📤 Example Output
+
+```text
+original array = 64 25 12 22 11
+sorted array = 11 12 22 25 64
+```
+
+## 🛠️ Technologies Used
+
+- Java
+- Scanner
+- Arrays
+- Selection Sort Algorithm
+
+## 🎯 Learning Objective
+
+This program helps in understanding:
+- Arrays in Java
+- Nested loops
+- Searching for the minimum element
+- Swapping array elements
+- Basic sorting algorithms
+- Time and space complexity
 
 
 
