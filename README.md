@@ -2273,7 +2273,102 @@ sorted array = 11 12 22 25 64
 ```
 
 
+#program 37 - # Bubble Sort in Java
 
+This Java program demonstrates the **Bubble Sort algorithm**. It takes an array from the user and sorts the elements in **ascending order** using Bubble Sort.
+
+## 📌 Description
+
+Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+
+The program:
+- Takes the size of the array from the user.
+- Accepts array elements from the user.
+- Sorts the array using Bubble Sort.
+- Prints the sorted array.
+
+## 🛠️ Technologies Used
+
+- **Java**
+- **Scanner** for user input
+- **Arrays**
+
+## 💡 How Bubble Sort Works
+
+For every pass through the array:
+
+1. Compare two adjacent elements.
+2. If the first element is greater than the second, swap them.
+3. Continue comparing the remaining elements.
+4. After each pass, the largest unsorted element moves to its correct position.
+5. Repeat until the array is sorted.
+
+The swapping logic in the program is:
+
+```java
+if(arr[j] > arr[j + 1]){
+    int temp = arr[j];
+    arr[j] = arr[j + 1];
+    arr[j + 1] = temp;
+}
+```
+
+## ▶️ Example
+
+### Input
+
+```text
+enter the size of array : 5
+enter numbers :
+64
+25
+12
+22
+11
+```
+
+### Output
+
+```text
+sorted array = 11 12 22 25 64
+```
+
+## ⏱️ Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best Case | O(n²) |
+| Average Case | O(n²) |
+| Worst Case | O(n²) |
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+Bubble Sort sorts the array in-place, so it requires constant extra space.
+
+## 📂 File
+
+```text
+program 37 - bubble.java
+```
+
+## 🎯 Learning Objective
+
+This program helps understand:
+
+- Arrays in Java
+- Nested `for` loops
+- Swapping elements
+- Sorting algorithms
+- Taking input using `Scanner`
+- Methods in Java
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
