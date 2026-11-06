@@ -2273,7 +2273,7 @@ sorted array = 11 12 22 25 64
 ```
 
 
-#program 37 - # Bubble Sort in Java
+#program 37 - Bubble Sort in Java
 
 This Java program demonstrates the **Bubble Sort algorithm**. It takes an array from the user and sorts the elements in **ascending order** using Bubble Sort.
 
