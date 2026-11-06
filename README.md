@@ -2355,20 +2355,6 @@ Bubble Sort sorts the array in-place, so it requires constant extra space.
 program 37 - bubble.java
 ```
 
-## 🎯 Learning Objective
-
-This program helps understand:
-
-- Arrays in Java
-- Nested `for` loops
-- Swapping elements
-- Sorting algorithms
-- Taking input using `Scanner`
-- Methods in Java
-
-## 👨‍💻 Author
-
-**Varad Takale**
 
 
 
