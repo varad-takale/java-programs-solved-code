@@ -2435,21 +2435,6 @@ Insertion Sort sorts the array in-place and uses constant extra space.
 program 38 - insertion.java
 ```
 
-## 🎯 Learning Objective
-
-This program helps understand:
-
-- Sorting algorithms
-- Arrays in Java
-- `for` loops
-- `while` loops
-- Element shifting
-- Methods
-- In-place sorting
-
-## 👨‍💻 Author
-
-**Varad Takale**
 
 
 
