@@ -2355,7 +2355,101 @@ Bubble Sort sorts the array in-place, so it requires constant extra space.
 program 37 - bubble.java
 ```
 
+#program 38 - # Insertion Sort in Java
 
+This Java program demonstrates the **Insertion Sort algorithm** using an integer array.
+
+## 📌 Description
+
+Insertion Sort builds the sorted array one element at a time. It takes the current element and compares it with the elements before it, shifting larger elements to the right until the correct position is found.
+
+This program uses the array:
+
+```java
+int arr[] = {9, 5, 6, 7, 4, 3, 1, 2};
+```
+
+The `insertionsort()` method sorts the array in **ascending order**.
+
+## 🛠️ Technologies Used
+
+- Java
+- Arrays
+- Loops
+- Methods
+
+## 💡 How Insertion Sort Works
+
+For each element:
+
+1. Select the current element.
+2. Compare it with the previous elements.
+3. Shift elements that are greater than the current element to the right.
+4. Insert the current element into its correct position.
+5. Repeat until the entire array is sorted.
+
+The main shifting logic is:
+
+```java
+while(prev >= 0 && arr[prev] > curr){
+    arr[prev + 1] = arr[prev];
+    prev--;
+}
+
+arr[prev + 1] = curr;
+```
+
+## ▶️ Example
+
+### Input
+
+```text
+9 5 6 7 4 3 1 2
+```
+
+### Output
+
+```text
+{1 2 3 4 5 6 7 9}
+```
+
+## ⏱️ Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best Case | O(n) |
+| Average Case | O(n²) |
+| Worst Case | O(n²) |
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+Insertion Sort sorts the array in-place and uses constant extra space.
+
+## 📂 File
+
+```text
+program 38 - insertion.java
+```
+
+## 🎯 Learning Objective
+
+This program helps understand:
+
+- Sorting algorithms
+- Arrays in Java
+- `for` loops
+- `while` loops
+- Element shifting
+- Methods
+- In-place sorting
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
