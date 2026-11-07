@@ -2355,7 +2355,7 @@ Bubble Sort sorts the array in-place, so it requires constant extra space.
 program 37 - bubble.java
 ```
 
-#program 38 - # Insertion Sort in Java
+#program 38 -  Insertion Sort in Java
 
 This Java program demonstrates the **Insertion Sort algorithm** using an integer array.
 
