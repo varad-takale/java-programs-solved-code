@@ -2435,7 +2435,64 @@ Insertion Sort sorts the array in-place and uses constant extra space.
 program 38 - insertion.java
 ```
 
+#program 39 - # Counting Sort in Java
 
+This program demonstrates the **Counting Sort** algorithm in Java.
+
+## 📌 Description
+
+Counting Sort is a sorting algorithm that sorts elements by counting the occurrences of each value.
+
+The program:
+1. Finds the largest element in the array.
+2. Creates a `count` array based on the largest value.
+3. Counts the frequency of each element.
+4. Reconstructs the original array in sorted order.
+
+## 💻 Example
+
+### Input
+```text
+{9, 5, 6, 4, 9, 4, 3, 5}
+```
+
+### Output
+```text
+{3 4 4 5 5 6 9 9}
+```
+
+## 🧠 Algorithm
+
+```text
+1. Find the largest element in the array.
+2. Create a count array of size largest + 1.
+3. Store the frequency of each element.
+4. Traverse the count array.
+5. Place each value back into the original array according to its frequency.
+```
+
+## ⏱️ Complexity
+
+- **Time Complexity:** O(n + k)
+- **Space Complexity:** O(k)
+
+Where:
+- `n` = number of elements in the input array
+- `k` = range of values from `0` to the largest element
+
+## 🛠️ Technologies Used
+
+- Java
+- Arrays
+- Counting Sort Algorithm
+
+## 📂 File
+
+`program 39 - countingsort.java`
+
+## 🎯 Purpose
+
+This program is useful for understanding how **Counting Sort** works and how frequency counting can be used to sort an array efficiently.
 
 
 
