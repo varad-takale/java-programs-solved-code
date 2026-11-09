@@ -2480,19 +2480,7 @@ Where:
 - `n` = number of elements in the input array
 - `k` = range of values from `0` to the largest element
 
-## 🛠️ Technologies Used
 
-- Java
-- Arrays
-- Counting Sort Algorithm
-
-## 📂 File
-
-`program 39 - countingsort.java`
-
-## 🎯 Purpose
-
-This program is useful for understanding how **Counting Sort** works and how frequency counting can be used to sort an array efficiently.
 
 
 
