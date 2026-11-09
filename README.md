@@ -2435,7 +2435,7 @@ Insertion Sort sorts the array in-place and uses constant extra space.
 program 38 - insertion.java
 ```
 
-#program 39 - # Counting Sort in Java
+#program 39 -  Counting Sort in Java
 
 This program demonstrates the **Counting Sort** algorithm in Java.
 
