@@ -2496,19 +2496,7 @@ The program:
 - Prints the row and column position if the key is found.
 - Prints a message if the key is not found.
 
-## 🧠 How It Works
 
-The `search()` method traverses every element of the matrix using two loops:
-
-```java
-for(int i = 0; i < matrix.length; i++) {
-    for(int j = 0; j < matrix[0].length; j++) {
-        if(matrix[i][j] == key) {
-            System.out.println("key found at cell (" + i + "," + j + ")");
-            return true;
-        }
-    }
-}
 ```
 
 If the current matrix element is equal to the given `key`, its **row index** and **column index** are printed.
