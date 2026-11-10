@@ -2481,7 +2481,93 @@ Where:
 - `k` = range of values from `0` to the largest element
 
 
+# Program 40 – 2D Array Search in Java
 
+## 📌 Description
+
+This Java program demonstrates how to work with a **2D Array (Matrix)** and search for a specific element inside it.
+
+The program:
+- Creates a `3 × 3` integer matrix.
+- Takes matrix elements as input from the user.
+- Displays the complete matrix.
+- Takes a key value to search.
+- Searches the key using **nested loops**.
+- Prints the row and column position if the key is found.
+- Prints a message if the key is not found.
+
+## 🧠 How It Works
+
+The `search()` method traverses every element of the matrix using two loops:
+
+```java
+for(int i = 0; i < matrix.length; i++) {
+    for(int j = 0; j < matrix[0].length; j++) {
+        if(matrix[i][j] == key) {
+            System.out.println("key found at cell (" + i + "," + j + ")");
+            return true;
+        }
+    }
+}
+```
+
+If the current matrix element is equal to the given `key`, its **row index** and **column index** are printed.
+
+## 💻 Example
+
+### Input
+
+```text
+1 2 3
+4 5 6
+7 8 9
+
+Enter a key number which want to found at cell: 5
+```
+
+### Output
+
+```text
+1 2 3
+4 5 6
+7 8 9
+
+key found at cell ( 1,2 )
+```
+
+> **Note:** Array indexing starts from `0`, so the element `5` is at row `1` and column `1` in the matrix.
+
+## ⏱️ Complexity
+
+- **Time Complexity:** `O(n × m)`
+- **Space Complexity:** `O(n × m)` for storing the matrix.
+
+## 🛠️ Concepts Used
+
+- Java
+- 2D Arrays
+- Matrix
+- Nested `for` loops
+- `Scanner`
+- Methods
+- Linear Search
+- Row and Column Indexing
+
+## 📂 File
+
+```text
+program 40 - twodarray.java
+```
+
+## 🎯 Learning Objective
+
+This program helps beginners understand how to:
+
+1. Create a 2D array.
+2. Take input into a matrix.
+3. Traverse a matrix using nested loops.
+4. Search for an element.
+5. Find the row and column position of an element.
 
 
 
