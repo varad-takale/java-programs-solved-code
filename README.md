@@ -2553,21 +2553,7 @@ key found at cell ( 1,2 )
 - Linear Search
 - Row and Column Indexing
 
-## 📂 File
 
-```text
-program 40 - twodarray.java
-```
-
-## 🎯 Learning Objective
-
-This program helps beginners understand how to:
-
-1. Create a 2D array.
-2. Take input into a matrix.
-3. Traverse a matrix using nested loops.
-4. Search for an element.
-5. Find the row and column position of an element.
 
 
 
