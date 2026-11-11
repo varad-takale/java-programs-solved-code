@@ -2623,26 +2623,7 @@ Factorial is = 5040
 - **Time Complexity:** `O(n)`
 - **Space Complexity:** `O(1)`
 
-## 🛠️ Concepts Used
 
-- Java
-- Methods
-- `for` loop
-- `while` loop
-- `Scanner`
-- User input
-- Factorial calculation
-- Basic arithmetic operations
-
-## 📂 File Name
-
-```text
-problem 41 - factorial.java
-```
-
-## 🎯 Learning Objective
-
-This program helps practice **loops, methods, user input, and mathematical calculations in Java**.
 
 
 
