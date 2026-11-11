@@ -2543,7 +2543,106 @@ key found at cell ( 1,2 )
 
 
 
+# Problem 41 - Factorial in Java
 
+## 📌 Description
+
+This Java program calculates the **factorial of a given number** using a `for` loop.
+
+The program takes a number from the user, calculates its factorial, and prints the result.
+
+## 🧠 What is Factorial?
+
+The factorial of a positive integer `n` is the product of all positive integers from `1` to `n`.
+
+**Formula:**
+
+```text
+n! = n × (n-1) × (n-2) × ... × 2 × 1
+```
+
+For example:
+
+```text
+5! = 5 × 4 × 3 × 2 × 1
+   = 120
+```
+
+## 💻 Code
+
+```java
+import java.util.Scanner;
+
+public class factorial {
+
+    public static void factorial(int n) {
+        int f = 1;
+
+        for (int i = 1; i <= n; i++) {
+            f = f * i;
+        }
+
+        System.out.println("Factorial is = " + f);
+    }
+
+    public static void main(String args[]) {
+
+        while (true) {
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("Enter a Number : ");
+            int n = sc.nextInt();
+
+            factorial(n);
+        }
+    }
+}
+```
+
+## 🔍 How It Works
+
+1. The program asks the user to enter a number.
+2. The `factorial()` method initializes `f` to `1`.
+3. A `for` loop runs from `1` to `n`.
+4. Each number is multiplied with `f`.
+5. The final factorial is printed.
+6. The `while(true)` loop allows the program to continuously accept new numbers.
+
+## 🧪 Example
+
+```text
+Enter a Number : 5
+Factorial is = 120
+
+Enter a Number : 7
+Factorial is = 5040
+```
+
+## ⏱️ Complexity
+
+- **Time Complexity:** `O(n)`
+- **Space Complexity:** `O(1)`
+
+## 🛠️ Concepts Used
+
+- Java
+- Methods
+- `for` loop
+- `while` loop
+- `Scanner`
+- User input
+- Factorial calculation
+- Basic arithmetic operations
+
+## 📂 File Name
+
+```text
+problem 41 - factorial.java
+```
+
+## 🎯 Learning Objective
+
+This program helps practice **loops, methods, user input, and mathematical calculations in Java**.
 
 
 
