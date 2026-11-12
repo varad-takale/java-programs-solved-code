@@ -2595,7 +2595,7 @@ Factorial is = 5040
 - **Space Complexity:** `O(1)`
 
 
-#program 42 - # String Palindrome in Java
+#program 42 -  String Palindrome in Java
 
 ## 📌 Description
 
