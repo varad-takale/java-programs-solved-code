@@ -2595,7 +2595,129 @@ Factorial is = 5040
 - **Space Complexity:** `O(1)`
 
 
+#program 42 - # String Palindrome in Java
 
+## 📌 Description
+
+This Java program checks whether a given string is a **palindrome** or not.
+
+A palindrome is a string that reads the same from **left to right** and **right to left**.
+
+### Example
+
+```text
+madam → Palindrome
+hello → Not a Palindrome
+```
+
+## 🚀 How It Works
+
+The program:
+
+1. Takes a string as input from the user.
+2. Compares the characters from the beginning and the end.
+3. Moves toward the center of the string.
+4. If any pair of characters is different, it returns `false`.
+5. If all characters match, it returns `true`.
+
+The comparison is performed using:
+
+```java
+str.charAt(i) != str.charAt(n - 1 - i)
+```
+
+The loop only runs until half of the string because each comparison checks two characters at once.
+
+## 💻 Code
+
+```java
+import java.util.*;
+
+public class stringpalindrome {
+
+    public static boolean ispalindrome(String str) {
+
+        int n = str.length();
+
+        for (int i = 0; i < n / 2; i++) {
+            if (str.charAt(i) != str.charAt(n - 1 - i)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void main(String args[]) {
+
+        while (true) {
+            System.out.println();
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.print("Enter a name :");
+            String str = sc.nextLine();
+
+            System.out.print(ispalindrome(str));
+        }
+    }
+}
+```
+
+## 📥 Sample Input
+
+```text
+Enter a name : madam
+```
+
+## 📤 Sample Output
+
+```text
+true
+```
+
+For a non-palindrome:
+
+```text
+Enter a name : hello
+```
+
+Output:
+
+```text
+false
+```
+
+## ⏱️ Complexity
+
+- **Time Complexity:** `O(n)`
+- **Space Complexity:** `O(1)`
+
+Where `n` is the length of the input string.
+
+## 🛠️ Technologies Used
+
+- Java
+- String
+- Character comparison
+- `Scanner`
+- Loops
+- Methods
+
+## 📚 Concepts Practiced
+
+- Java Strings
+- `charAt()`
+- String length
+- Methods
+- Loops
+- Conditional statements
+- User input
+- Palindrome logic
+
+## 👨‍💻 Author
+
+**Varad Takale**
 
 
 
