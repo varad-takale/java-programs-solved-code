@@ -2695,29 +2695,6 @@ false
 
 Where `n` is the length of the input string.
 
-## 🛠️ Technologies Used
-
-- Java
-- String
-- Character comparison
-- `Scanner`
-- Loops
-- Methods
-
-## 📚 Concepts Practiced
-
-- Java Strings
-- `charAt()`
-- String length
-- Methods
-- Loops
-- Conditional statements
-- User input
-- Palindrome logic
-
-## 👨‍💻 Author
-
-**Varad Takale**
 
 
 
