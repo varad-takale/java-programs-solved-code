@@ -244,7 +244,7 @@ javac charect.java
 ```
 # program 5 - Adult Age Checker – Java
 
-A simple Java program that checks whether a person is an **adult** based on their age.
+A simple Java program that checks whether a person is an **adult** based on their age
 
 ## 📌 About the Project
 
