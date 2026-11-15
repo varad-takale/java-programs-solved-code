@@ -3,7 +3,7 @@
 
 # program 1 -📌 Pattern Output
 
-A simple Java program that demonstrates how to print a **decreasing star (`*`) pattern** using `System.out.println()`.
+A simple Java program that demonstrates how to print a **decreasing star (`*`) pattern** using `System.out.println()`
 
 This project is designed for beginners who are learning the fundamentals of **Java programming, classes, methods, and console output**.
 
